@@ -1,0 +1,161 @@
+version: 1
+updated_at: 2026-05-29
+
+companies:
+  - code: "005930"
+    name: "Samsung Electronics"
+    priority: 1
+    openalex_queries:
+      - id: samsung_priority_memory
+        search: "Samsung HBM DRAM GAA EUV advanced packaging lithography"
+        tags: [company_priority, samsung, memory, foundry]
+        min_year: 2022
+      - id: samsung_priority_process
+        search: "Samsung semiconductor yield metrology inspection backside power"
+        tags: [company_priority, samsung, process, reliability]
+        min_year: 2022
+    arxiv_queries:
+      - id: samsung_arxiv_memory
+        query: '(all:Samsung OR all:"Samsung Electronics") AND (all:HBM OR all:DRAM OR all:GAA OR all:EUV OR all:"advanced packaging")'
+        max_results: 40
+      - id: samsung_arxiv_process
+        query: '(all:Samsung OR all:"Samsung Electronics") AND (all:yield OR all:metrology OR all:inspection OR all:reliability OR all:lithography)'
+        max_results: 40
+
+  - code: "000660"
+    name: "SK hynix"
+    priority: 1
+    openalex_queries:
+      - id: skhynix_priority_hbm
+        search: "SK hynix HBM DRAM hybrid bonding TSV CXL PIM packaging"
+        tags: [company_priority, sk_hynix, memory, packaging]
+        min_year: 2022
+      - id: skhynix_priority_reliability
+        search: "SK hynix memory yield reliability defect density electromigration"
+        tags: [company_priority, sk_hynix, reliability, process]
+        min_year: 2022
+    arxiv_queries:
+      - id: skhynix_arxiv_memory
+        query: '(all:"SK hynix" OR all:hynix OR all:SKHynix) AND (all:HBM OR all:DRAM OR all:TSV OR all:"hybrid bonding" OR all:CXL OR all:PIM)'
+        max_results: 40
+
+  - code: "042700"
+    name: "Hanmi Semiconductor"
+    priority: 1
+    openalex_queries:
+      - id: hanmi_priority_packaging
+        search: "Hanmi Semiconductor advanced packaging hybrid bonding TSV interposer metrology inspection"
+        tags: [company_priority, hanmi, packaging, equipment]
+        min_year: 2022
+      - id: hanmi_priority_equipment
+        search: "Hanmi Semiconductor OSAT packaging substrate yield inspection reliability"
+        tags: [company_priority, hanmi, equipment, reliability]
+        min_year: 2022
+    arxiv_queries:
+      - id: hanmi_arxiv_packaging
+        query: '(all:"Hanmi Semiconductor" OR all:Hanmi) AND (all:packaging OR all:hybrid bonding OR all:TSV OR all:interposer OR all:inspection)'
+        max_results: 30
+
+  - code: "TSM"
+    name: "TSMC"
+    priority: 2
+    openalex_queries:
+      - id: tsmc_priority_foundry
+        search: "TSMC CoWoS N2 A16 high-NA EUV foundry packaging"
+        tags: [company_priority, tsmc, foundry, packaging]
+        min_year: 2022
+    arxiv_queries:
+      - id: tsmc_arxiv_foundry
+        query: '(all:TSMC OR all:"Taiwan Semiconductor") AND (all:CoWoS OR all:foundry OR all:packaging OR all:EUV OR all:2nm)'
+        max_results: 30
+
+  - code: "ASML"
+    name: "ASML"
+    priority: 2
+    openalex_queries:
+      - id: asml_priority_litho
+        search: "ASML High-NA EUV lithography pellicle scanner stochastic"
+        tags: [company_priority, asml, lithography, equipment]
+        min_year: 2022
+    arxiv_queries:
+      - id: asml_arxiv_litho
+        query: '(all:ASML OR all:"high-NA" OR all:EUV) AND (all:lithography OR all:scanner OR all:pellicle OR all:patterning)'
+        max_results: 30
+
+  - code: "NVDA"
+    name: "NVIDIA"
+    priority: 2
+    openalex_queries:
+      - id: nvidia_priority_memory
+        search: "NVIDIA HBM memory bandwidth CXL data center accelerator"
+        tags: [company_priority, nvidia, ai, memory]
+        min_year: 2022
+    arxiv_queries:
+      - id: nvidia_arxiv_ai_memory
+        query: '(all:NVIDIA OR all:GPU) AND (all:HBM OR all:memory OR all:bandwidth OR all:accelerator)'
+        max_results: 30
+
+  - code: "MU"
+    name: "Micron"
+    priority: 2
+    openalex_queries:
+      - id: micron_priority_memory
+        search: "Micron HBM DRAM LPDDR DDR5 memory scaling"
+        tags: [company_priority, micron, memory, packaging]
+        min_year: 2022
+    arxiv_queries:
+      - id: micron_arxiv_memory
+        query: '(all:Micron OR all:"Micron Technology") AND (all:HBM OR all:DRAM OR all:LPDDR OR all:DDR5 OR all:memory)'
+        max_results: 30
+
+  - code: "AMAT"
+    name: "Applied Materials"
+    priority: 2
+    openalex_queries:
+      - id: amat_priority_equipment
+        search: "Applied Materials etch deposition ALD ALE metrology inspection semiconductor equipment"
+        tags: [company_priority, amat, equipment, process]
+        min_year: 2022
+    arxiv_queries:
+      - id: amat_arxiv_equipment
+        query: '(all:"Applied Materials" OR all:AMAT) AND (all:etch OR all:deposition OR all:ALD OR all:ALE OR all:inspection OR all:metrology)'
+        max_results: 30
+
+  - code: "LRCX"
+    name: "Lam Research"
+    priority: 2
+    openalex_queries:
+      - id: lrcx_priority_equipment
+        search: "Lam Research etch deposition metrology advanced packaging semiconductor equipment"
+        tags: [company_priority, lrcx, equipment, process]
+        min_year: 2022
+    arxiv_queries:
+      - id: lrcx_arxiv_equipment
+        query: '(all:"Lam Research" OR all:Lam) AND (all:etch OR all:deposition OR all:metrology OR all:inspection OR all:packaging)'
+        max_results: 30
+
+  - code: "KLAC"
+    name: "KLA"
+    priority: 2
+    openalex_queries:
+      - id: kla_priority_metrology
+        search: "KLA metrology inspection defect detection yield semiconductor"
+        tags: [company_priority, kla, metrology, inspection]
+        min_year: 2022
+    arxiv_queries:
+      - id: kla_arxiv_metrology
+        query: '(all:KLA OR all:"KLA Corporation") AND (all:metrology OR all:inspection OR all:defect OR all:yield)'
+        max_results: 30
+
+  - code: "INTC"
+    name: "Intel"
+    priority: 3
+    openalex_queries:
+      - id: intel_priority_foundry
+        search: "Intel foundry 18A backside power GAA chiplet advanced packaging"
+        tags: [company_priority, intel, foundry, packaging]
+        min_year: 2022
+    arxiv_queries:
+      - id: intel_arxiv_foundry
+        query: '(all:Intel OR all:"Intel Foundry") AND (all:18A OR all:foundry OR all:chiplet OR all:backside power OR all:GAA)'
+        max_results: 30

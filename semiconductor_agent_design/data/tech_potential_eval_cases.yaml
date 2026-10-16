@@ -1,0 +1,207 @@
+version: 1
+updated_at: 2026-05-29
+
+cases:
+  - id: hbm_longevity_basic
+    difficulty: easy
+    topic: HBM가 앞으로도 오래 갈까?
+    company_hint: "000660"
+    domain_hint: hbm
+    question: HBM은 1년, 3년, 5년, 10년 기준으로 어디까지 유효한가?
+    expected:
+      longevity_dominant: 3y
+      bottleneck_importance: high
+      expected_beneficiaries: ["000660", "NVDA"]
+      required_terms: ["hbm", "memory", "ai"]
+
+  - id: euv_bottleneck_basic
+    difficulty: easy
+    topic: EUV 장비 중요성
+    company_hint: "ASML"
+    domain_hint: litho
+    question: EUV와 High-NA는 얼마나 중요한 병목인가?
+    expected:
+      longevity_dominant: 5y
+      bottleneck_importance: critical
+      expected_beneficiaries: ["ASML", "TSM"]
+      required_terms: ["euv", "litho", "high-na"]
+
+  - id: cxl_pim_memory
+    difficulty: medium
+    topic: CXL과 PIM 메모리 확장성
+    company_hint: "INTC"
+    domain_hint: memory
+    question: CXL과 PIM은 실제로 메모리 구조를 바꿀 수 있는가?
+    expected:
+      longevity_dominant: 3y
+      bottleneck_importance: medium
+      expected_beneficiaries: ["INTC", "NVDA"]
+      required_terms: ["cxl", "pim", "memory"]
+
+  - id: sic_gan_power
+    difficulty: medium
+    topic: SiC와 GaN 전력 반도체
+    company_hint: "AMAT"
+    domain_hint: power
+    question: SiC와 GaN은 전력 반도체에서 얼마나 오래 중요할까?
+    expected:
+      longevity_dominant: 5y
+      bottleneck_importance: medium
+      expected_beneficiaries: ["AMAT"]
+      required_terms: ["sic", "gan", "power"]
+
+  - id: advanced_packaging_hybrid_bonding
+    difficulty: medium
+    topic: 하이브리드 본딩과 첨단 패키징
+    company_hint: "042700"
+    domain_hint: packaging
+    question: 하이브리드 본딩과 2.5D/3D 패키징은 AI 시대의 구조적 병목인가?
+    expected:
+      longevity_dominant: 3y
+      bottleneck_importance: high
+      expected_beneficiaries: ["042700", "TSM", "000660"]
+      required_terms: ["hybrid", "packaging", "chiplet"]
+
+  - id: backside_power_logic
+    difficulty: hard
+    topic: BPDN과 GAA 소자 구조
+    company_hint: "005930"
+    domain_hint: logic
+    question: Backside Power Delivery와 GAA는 향후 로직 공정 경쟁의 핵심인가?
+    expected:
+      longevity_dominant: 5y
+      bottleneck_importance: high
+      expected_beneficiaries: ["005930", "TSM", "INTC"]
+      required_terms: ["backside", "gaa", "node"]
+
+  - id: dram_cycle_price
+    difficulty: medium
+    topic: DRAM 사이클과 가격
+    company_hint: "000660"
+    domain_hint: dram
+    question: DRAM 고정거래가와 수출입, 생산지수가 사이클 판단에 얼마나 중요한가?
+    expected:
+      longevity_dominant: 1y
+      bottleneck_importance: medium
+      expected_beneficiaries: ["000660", "005930", "MU"]
+      required_terms: ["dram", "price", "inventory"]
+
+  - id: nand_vnand_relevance
+    difficulty: medium
+    topic: V-NAND와 3D NAND
+    company_hint: "000660"
+    domain_hint: nand
+    question: 3D NAND/V-NAND는 얼마나 오래 구조적 수요가 유지되는가?
+    expected:
+      longevity_dominant: 5y
+      bottleneck_importance: medium
+      expected_beneficiaries: ["000660", "005930", "MU"]
+      required_terms: ["nand", "3d", "flash"]
+
+  - id: yield_metrology_reliability
+    difficulty: hard
+    topic: 수율과 계측/검사/신뢰성
+    company_hint: "ASML"
+    domain_hint: process
+    question: 수율, 계측, 검사, 신뢰성은 왜 선단 공정에서 중요해지는가?
+    expected:
+      longevity_dominant: 5y
+      bottleneck_importance: high
+      expected_beneficiaries: ["ASML", "AMAT", "LRCX", "KLAC"]
+      required_terms: ["yield", "metrology", "inspection"]
+
+  - id: eda_chiplet_ucie
+    difficulty: hard
+    topic: EDA와 칩렛/UCIe
+    company_hint: "NVDA"
+    domain_hint: design
+    question: EDA, 칩렛, UCIe는 어떤 산업 구조 변화를 만들 수 있는가?
+    expected:
+      longevity_dominant: 5y
+      bottleneck_importance: high
+      expected_beneficiaries: ["NVDA", "INTC", "AMAT"]
+      required_terms: ["eda", "chiplet", "ucie"]
+
+  - id: standards_jedec_irds
+    difficulty: hard
+    topic: JEDEC과 IRDS 표준/로드맵
+    company_hint: ""
+    domain_hint: standards
+    question: JEDEC과 IRDS 같은 표준/로드맵 문서는 왜 신뢰도 높은 근거인가?
+    expected:
+      longevity_dominant: 10y+
+      bottleneck_importance: medium
+      expected_beneficiaries: ["005930", "000660", "TSM", "ASML"]
+      required_terms: ["jedec", "irds", "standard"]
+
+  - id: materials_glass_substrate
+    difficulty: hard
+    topic: 유리 기판과 소재 전환
+    company_hint: "AMAT"
+    domain_hint: materials
+    question: 유리 기판과 신소재 전환은 첨단 패키징을 얼마나 바꿀 수 있는가?
+    expected:
+      longevity_dominant: 5y
+      bottleneck_importance: medium
+      expected_beneficiaries: ["AMAT", "TSM", "042700"]
+      required_terms: ["glass", "substrate", "materials"]
+
+  - id: mram_reram_memory
+    difficulty: hard
+    topic: MRAM and ReRAM next-generation memory
+    company_hint: "005930"
+    domain_hint: memory
+    question: How relevant are MRAM and ReRAM as next-generation memory architectures for on-device AI and embedded systems?
+    expected:
+      longevity_dominant: 5y
+      bottleneck_importance: medium
+      expected_beneficiaries: ["005930", "INTC", "MU"]
+      required_terms: ["mram", "reram", "memory"]
+
+  - id: cis_pmic_rfic
+    difficulty: medium
+    topic: CIS PMIC RFIC specialty devices
+    company_hint: "005930"
+    domain_hint: specialty_devices
+    question: Which specialty-device segments like CIS, PMIC, and RFIC matter most across mobile, automotive, and connectivity markets?
+    expected:
+      longevity_dominant: 3y
+      bottleneck_importance: medium
+      expected_beneficiaries: ["005930", "NVDA", "INTC"]
+      required_terms: ["cis", "pmic", "rfic"]
+
+  - id: ald_ale_process
+    difficulty: hard
+    topic: ALD ALE metrology and process control
+    company_hint: "ASML"
+    domain_hint: process
+    question: How important are ALD and ALE for advanced process control as nodes shrink further?
+    expected:
+      longevity_dominant: 5y
+      bottleneck_importance: high
+      expected_beneficiaries: ["ASML", "AMAT", "LRCX", "KLAC"]
+      required_terms: ["ald", "ale", "metrology"]
+
+  - id: bpdn_gaa_logic
+    difficulty: hard
+    topic: Backside power delivery and GAA logic
+    company_hint: "005930"
+    domain_hint: logic
+    question: How do backside power delivery networks and GAA change the economics of advanced logic nodes?
+    expected:
+      longevity_dominant: 5y
+      bottleneck_importance: high
+      expected_beneficiaries: ["005930", "TSM", "INTC"]
+      required_terms: ["backside", "gaa", "logic"]
+
+  - id: tem_fib_failure_analysis
+    difficulty: hard
+    topic: TEM FIB failure analysis reliability
+    company_hint: "KLAC"
+    domain_hint: inspection_failure_analysis
+    question: Why do TEM and FIB matter for failure analysis, yield improvement, and reliability engineering?
+    expected:
+      longevity_dominant: 5y
+      bottleneck_importance: high
+      expected_beneficiaries: ["KLAC", "AMAT", "LRCX"]
+      required_terms: ["tem", "fib", "failure"]

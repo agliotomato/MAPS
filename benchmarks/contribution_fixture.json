@@ -1,0 +1,623 @@
+{
+  "id": "CONTRIBUTION-SYNTHETIC-001",
+  "company_code": "005930",
+  "as_of": "2026-04-01T00:00:00+00:00",
+  "evidence": [
+    {
+      "id": "price-1",
+      "role": "market",
+      "kind": "price",
+      "origin": "price-1",
+      "parents": [],
+      "payload": {
+        "company_code": "005930",
+        "rows": [
+          {
+            "trade_date": "2026-01-01",
+            "close": 100.0,
+            "volume": 1000,
+            "available_at": "2026-01-01T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-01-02",
+            "close": 100.55000000000001,
+            "volume": 1007,
+            "available_at": "2026-01-02T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-01-05",
+            "close": 101.1,
+            "volume": 1014,
+            "available_at": "2026-01-05T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-01-06",
+            "close": 101.65,
+            "volume": 1021,
+            "available_at": "2026-01-06T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-01-07",
+            "close": 101.6,
+            "volume": 1028,
+            "available_at": "2026-01-07T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-01-08",
+            "close": 102.15,
+            "volume": 1035,
+            "available_at": "2026-01-08T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-01-09",
+            "close": 102.7,
+            "volume": 1042,
+            "available_at": "2026-01-09T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-01-12",
+            "close": 103.25,
+            "volume": 1049,
+            "available_at": "2026-01-12T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-01-13",
+            "close": 103.2,
+            "volume": 1056,
+            "available_at": "2026-01-13T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-01-14",
+            "close": 103.75,
+            "volume": 1063,
+            "available_at": "2026-01-14T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-01-15",
+            "close": 104.3,
+            "volume": 1070,
+            "available_at": "2026-01-15T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-01-16",
+            "close": 104.85000000000001,
+            "volume": 1077,
+            "available_at": "2026-01-16T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-01-19",
+            "close": 104.8,
+            "volume": 1084,
+            "available_at": "2026-01-19T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-01-20",
+            "close": 105.35000000000001,
+            "volume": 1091,
+            "available_at": "2026-01-20T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-01-21",
+            "close": 105.89999999999999,
+            "volume": 1098,
+            "available_at": "2026-01-21T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-01-22",
+            "close": 106.45,
+            "volume": 1105,
+            "available_at": "2026-01-22T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-01-23",
+            "close": 106.4,
+            "volume": 1112,
+            "available_at": "2026-01-23T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-01-26",
+            "close": 106.95,
+            "volume": 1119,
+            "available_at": "2026-01-26T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-01-27",
+            "close": 107.5,
+            "volume": 1126,
+            "available_at": "2026-01-27T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-01-28",
+            "close": 108.05,
+            "volume": 1133,
+            "available_at": "2026-01-28T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-01-29",
+            "close": 108.0,
+            "volume": 1140,
+            "available_at": "2026-01-29T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-01-30",
+            "close": 108.55000000000001,
+            "volume": 1147,
+            "available_at": "2026-01-30T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-02-02",
+            "close": 109.1,
+            "volume": 1154,
+            "available_at": "2026-02-02T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-02-03",
+            "close": 109.65,
+            "volume": 1161,
+            "available_at": "2026-02-03T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-02-04",
+            "close": 109.6,
+            "volume": 1168,
+            "available_at": "2026-02-04T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-02-05",
+            "close": 110.15,
+            "volume": 1175,
+            "available_at": "2026-02-05T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-02-06",
+            "close": 110.7,
+            "volume": 1182,
+            "available_at": "2026-02-06T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-02-09",
+            "close": 111.25,
+            "volume": 1189,
+            "available_at": "2026-02-09T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-02-10",
+            "close": 111.2,
+            "volume": 1196,
+            "available_at": "2026-02-10T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-02-11",
+            "close": 111.75,
+            "volume": 1203,
+            "available_at": "2026-02-11T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-02-12",
+            "close": 112.3,
+            "volume": 1210,
+            "available_at": "2026-02-12T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-02-13",
+            "close": 112.85000000000001,
+            "volume": 1217,
+            "available_at": "2026-02-13T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-02-16",
+            "close": 112.8,
+            "volume": 1224,
+            "available_at": "2026-02-16T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-02-17",
+            "close": 113.35000000000001,
+            "volume": 1231,
+            "available_at": "2026-02-17T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-02-18",
+            "close": 113.89999999999999,
+            "volume": 1238,
+            "available_at": "2026-02-18T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-02-19",
+            "close": 114.45,
+            "volume": 1245,
+            "available_at": "2026-02-19T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-02-20",
+            "close": 114.4,
+            "volume": 1252,
+            "available_at": "2026-02-20T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-02-23",
+            "close": 114.95,
+            "volume": 1259,
+            "available_at": "2026-02-23T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-02-24",
+            "close": 115.5,
+            "volume": 1266,
+            "available_at": "2026-02-24T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-02-25",
+            "close": 116.05,
+            "volume": 1273,
+            "available_at": "2026-02-25T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-02-26",
+            "close": 116.0,
+            "volume": 1280,
+            "available_at": "2026-02-26T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-02-27",
+            "close": 116.55000000000001,
+            "volume": 1287,
+            "available_at": "2026-02-27T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-03-02",
+            "close": 117.1,
+            "volume": 1294,
+            "available_at": "2026-03-02T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-03-03",
+            "close": 117.65,
+            "volume": 1301,
+            "available_at": "2026-03-03T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-03-04",
+            "close": 117.6,
+            "volume": 1308,
+            "available_at": "2026-03-04T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-03-05",
+            "close": 118.15,
+            "volume": 1315,
+            "available_at": "2026-03-05T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-03-06",
+            "close": 118.7,
+            "volume": 1322,
+            "available_at": "2026-03-06T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-03-09",
+            "close": 119.25,
+            "volume": 1329,
+            "available_at": "2026-03-09T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-03-10",
+            "close": 119.2,
+            "volume": 1336,
+            "available_at": "2026-03-10T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-03-11",
+            "close": 119.75,
+            "volume": 1343,
+            "available_at": "2026-03-11T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-03-12",
+            "close": 120.3,
+            "volume": 1350,
+            "available_at": "2026-03-12T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-03-13",
+            "close": 120.85000000000001,
+            "volume": 1357,
+            "available_at": "2026-03-13T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-03-16",
+            "close": 120.8,
+            "volume": 1364,
+            "available_at": "2026-03-16T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-03-17",
+            "close": 121.35000000000001,
+            "volume": 1371,
+            "available_at": "2026-03-17T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-03-18",
+            "close": 121.89999999999999,
+            "volume": 1378,
+            "available_at": "2026-03-18T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-03-19",
+            "close": 122.45,
+            "volume": 1385,
+            "available_at": "2026-03-19T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-03-20",
+            "close": 122.4,
+            "volume": 1392,
+            "available_at": "2026-03-20T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-03-23",
+            "close": 122.95,
+            "volume": 1399,
+            "available_at": "2026-03-23T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-03-24",
+            "close": 123.5,
+            "volume": 1406,
+            "available_at": "2026-03-24T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-03-25",
+            "close": 124.05,
+            "volume": 1413,
+            "available_at": "2026-03-25T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-03-26",
+            "close": 124.0,
+            "volume": 1420,
+            "available_at": "2026-03-26T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-03-27",
+            "close": 124.55000000000001,
+            "volume": 1427,
+            "available_at": "2026-03-27T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-03-30",
+            "close": 125.1,
+            "volume": 1434,
+            "available_at": "2026-03-30T06:31:00+00:00"
+          },
+          {
+            "trade_date": "2026-03-31",
+            "close": 125.65,
+            "volume": 1441,
+            "available_at": "2026-03-31T06:31:00+00:00"
+          }
+        ],
+        "adjustment": "synthetic unadjusted",
+        "calendar_ref": "synthetic weekdays only; NOT KRX calendar",
+        "expected_sessions": [
+          "2026-01-01",
+          "2026-01-02",
+          "2026-01-05",
+          "2026-01-06",
+          "2026-01-07",
+          "2026-01-08",
+          "2026-01-09",
+          "2026-01-12",
+          "2026-01-13",
+          "2026-01-14",
+          "2026-01-15",
+          "2026-01-16",
+          "2026-01-19",
+          "2026-01-20",
+          "2026-01-21",
+          "2026-01-22",
+          "2026-01-23",
+          "2026-01-26",
+          "2026-01-27",
+          "2026-01-28",
+          "2026-01-29",
+          "2026-01-30",
+          "2026-02-02",
+          "2026-02-03",
+          "2026-02-04",
+          "2026-02-05",
+          "2026-02-06",
+          "2026-02-09",
+          "2026-02-10",
+          "2026-02-11",
+          "2026-02-12",
+          "2026-02-13",
+          "2026-02-16",
+          "2026-02-17",
+          "2026-02-18",
+          "2026-02-19",
+          "2026-02-20",
+          "2026-02-23",
+          "2026-02-24",
+          "2026-02-25",
+          "2026-02-26",
+          "2026-02-27",
+          "2026-03-02",
+          "2026-03-03",
+          "2026-03-04",
+          "2026-03-05",
+          "2026-03-06",
+          "2026-03-09",
+          "2026-03-10",
+          "2026-03-11",
+          "2026-03-12",
+          "2026-03-13",
+          "2026-03-16",
+          "2026-03-17",
+          "2026-03-18",
+          "2026-03-19",
+          "2026-03-20",
+          "2026-03-23",
+          "2026-03-24",
+          "2026-03-25",
+          "2026-03-26",
+          "2026-03-27",
+          "2026-03-30",
+          "2026-03-31"
+        ],
+        "corporate_action_review": "synthetic series; no actual company actions"
+      },
+      "available_at": "2026-03-31T07:00:00+00:00",
+      "precision": "timestamp",
+      "source_ref": "synthetic://price-1",
+      "version_ref": "synthetic-v1",
+      "availability_basis": "Synthetic timestamp; not a historical observation"
+    },
+    {
+      "id": "news-1",
+      "role": "news",
+      "kind": "news",
+      "origin": "news-1",
+      "parents": [],
+      "payload": "SYNTHETIC news: a company announces an order; unverified forecast implications.",
+      "available_at": "2026-03-31T07:00:00+00:00",
+      "precision": "timestamp",
+      "source_ref": "synthetic://news-1",
+      "version_ref": "synthetic-v1",
+      "availability_basis": "Synthetic timestamp; not a historical observation"
+    },
+    {
+      "id": "copy-econ",
+      "role": "economy",
+      "kind": "economy",
+      "origin": "news-1",
+      "parents": [],
+      "payload": "SYNTHETIC news: a company announces an order; unverified forecast implications.",
+      "available_at": "2026-03-31T07:00:00+00:00",
+      "precision": "timestamp",
+      "source_ref": "synthetic://copy-econ",
+      "version_ref": "synthetic-v1",
+      "availability_basis": "Synthetic timestamp; not a historical observation"
+    },
+    {
+      "id": "derived-tech",
+      "role": "semiconductor",
+      "kind": "derived",
+      "origin": "derived-tech",
+      "parents": [
+        "copy-econ"
+      ],
+      "payload": "SYNTHETIC paraphrase of order news.",
+      "available_at": "2026-03-31T07:00:00+00:00",
+      "precision": "timestamp",
+      "source_ref": "synthetic://derived-tech",
+      "version_ref": "synthetic-v1",
+      "availability_basis": "Synthetic timestamp; not a historical observation"
+    },
+    {
+      "id": "tech-1",
+      "role": "semiconductor",
+      "kind": "technology",
+      "origin": "tech-1",
+      "parents": [],
+      "payload": "SYNTHETIC technical measurement, not a market price.",
+      "available_at": "2026-03-31T07:00:00+00:00",
+      "precision": "timestamp",
+      "source_ref": "synthetic://tech-1",
+      "version_ref": "synthetic-v1",
+      "availability_basis": "Synthetic timestamp; not a historical observation"
+    },
+    {
+      "id": "macro-1",
+      "role": "economy",
+      "kind": "economy",
+      "origin": "macro-1",
+      "parents": [],
+      "payload": "SYNTHETIC currency observation with a declared historical version.",
+      "available_at": "2026-03-31T07:00:00+00:00",
+      "precision": "timestamp",
+      "source_ref": "synthetic://macro-1",
+      "version_ref": "synthetic-v1",
+      "availability_basis": "Synthetic timestamp; not a historical observation"
+    },
+    {
+      "id": "disclosure-1",
+      "role": "news",
+      "kind": "disclosure",
+      "origin": "disclosure-1",
+      "parents": [],
+      "payload": "SYNTHETIC company filing distinct from the news item.",
+      "available_at": "2026-03-31T07:00:00+00:00",
+      "precision": "timestamp",
+      "source_ref": "synthetic://disclosure-1",
+      "version_ref": "synthetic-v1",
+      "availability_basis": "Synthetic timestamp; not a historical observation"
+    },
+    {
+      "id": "signal-events",
+      "role": "news",
+      "kind": "engine_signal",
+      "origin": "signal-events",
+      "parents": [
+        "news-1"
+      ],
+      "payload": {
+        "component": "events",
+        "values": {
+          "event_bias": 0.2
+        }
+      },
+      "available_at": "2026-03-31T07:00:00+00:00",
+      "precision": "timestamp",
+      "source_ref": "synthetic://signal-events",
+      "version_ref": "synthetic-v1",
+      "availability_basis": "Synthetic timestamp; not a historical observation"
+    },
+    {
+      "id": "signal-tech",
+      "role": "semiconductor",
+      "kind": "engine_signal",
+      "origin": "signal-tech",
+      "parents": [
+        "derived-tech",
+        "tech-1"
+      ],
+      "payload": {
+        "component": "tech",
+        "values": {
+          "tech_bias": 0.015
+        }
+      },
+      "available_at": "2026-03-31T07:00:00+00:00",
+      "precision": "timestamp",
+      "source_ref": "synthetic://signal-tech",
+      "version_ref": "synthetic-v1",
+      "availability_basis": "Synthetic timestamp; not a historical observation"
+    },
+    {
+      "id": "signal-macro",
+      "role": "economy",
+      "kind": "engine_signal",
+      "origin": "signal-macro",
+      "parents": [
+        "macro-1"
+      ],
+      "payload": {
+        "component": "market",
+        "values": {
+          "macro_bias": -0.01
+        }
+      },
+      "available_at": "2026-03-31T07:00:00+00:00",
+      "precision": "timestamp",
+      "source_ref": "synthetic://signal-macro",
+      "version_ref": "synthetic-v1",
+      "availability_basis": "Synthetic timestamp; not a historical observation"
+    }
+  ],
+  "limitations": [
+    "SYNTHETIC_ONLY",
+    "NOT_EVALUATION_ELIGIBLE",
+    "CALENDAR_UNVERIFIED"
+  ]
+}

@@ -1,0 +1,18 @@
+[
+  {"id":"negative_production_en","text":"Example Inc. has not begun mass production of the 96GB module.","expected":null},
+  {"id":"conditional_production","text":"If the factory begins mass production, deliveries may start next year.","expected":null},
+  {"id":"negative_production_ko","text":"가상 기업은 메모리 양산을 시작하지 않았다고 밝혔다.","expected":null},
+  {"id":"denial_outside_window","text":"Reports that Example Inc. has begun mass production of the new module using a complex process with advanced packaging and thermal controls for several generations of interconnected memory devices serving large research computing facilities were denied by the company.","expected":null},
+  {"id":"forecast_revenue","text":"The company expects revenues of 12.3 trillion won next year.","expected":null},
+  {"id":"mixed_actual_forecast","text":"매출은 올해 10억원을 기록했고 내년에는 20억원으로 늘어날 것으로 전망된다.","expected":null},
+  {"id":"canceled_earnings_schedule","text":"The conference call will be held on May 1, according to an invitation that was later canceled.","expected":null},
+  {"id":"forecast_share_price","text":"2025-05-01 주가는 12000원에 마감할 것으로 예상된다.","expected":null},
+  {"id":"technical_cost_near_price_word","text":"2025-05-01 주가 분석에 쓰인 모듈 비용은 200 USD이며 접수는 마감했다.","expected":null},
+  {"id":"appendix_after_references","source_type":"paper","text":"[1] One, Memory, 2020.\n[2] Two, HBM, 2021.\n[3] Three, Design, 2022.\nAppendix A\nOur HBM memory experiments measure bandwidth under load.","quote":"Our HBM memory experiments measure bandwidth under load.","expected":"technical_description"},
+  {"id":"positive_production","text":"The company has begun mass production of the 96GB module. It may open a second factory next year.","expected":"production_announcement"},
+  {"id":"positive_results","text":"The company reported revenues of 12.3 trillion won. Next year's revenues are expected to rise.","expected":"financial_results"},
+  {"id":"positive_price","text":"2025-05-01 주가는 12000원에 마감했다.","expected":"stock_price"},
+  {"id":"positive_references","source_type":"paper","text":"[1] One, Memory, 2020.\n[2] Two, HBM, 2021.\n[3] Three, Design, 2022.","expected":"bibliography"},
+  {"id":"positive_schedule","text":"Example Inc. will present its quarterly earnings on May 1, 2025.","expected":"earnings_schedule"},
+  {"id":"positive_technical_cost","source_type":"paper","text":"The HBM memory prototype costs 200 USD and does not double bandwidth.","expected":"technical_description"}
+]

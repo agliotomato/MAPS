@@ -1,0 +1,870 @@
+{
+  "packet": {
+    "id": "PRICE-CHRONOLOGY-2025-08-04-005930",
+    "company_code": "005930",
+    "as_of": "2025-08-04T00:00:00+00:00",
+    "evidence": [
+      {
+        "id": "price_005930",
+        "role": "market",
+        "kind": "price",
+        "origin": "naver_005930",
+        "parents": [],
+        "available_at": null,
+        "precision": "unknown",
+        "source_ref": "https://fchart.stock.naver.com/sise.nhn?timeframe=day&count=1000&requestType=0&symbol=005930",
+        "version_ref": "retrospective-sha256:cebc94b5b993f130b2a5e08e1519c877149fb3ecb7423704873b4640186462fa",
+        "availability_basis": "Trade date known; original publication receipt and historical vintage unavailable. No timestamp imputed.",
+        "payload": {
+          "company_code": "005930",
+          "rows": [
+            {
+              "trade_date": "2025-04-07",
+              "close": 53200.0,
+              "volume": 31998883.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-04-08",
+              "close": 53500.0,
+              "volume": 25532845.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-04-09",
+              "close": 53000.0,
+              "volume": 20576960.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-04-10",
+              "close": 56400.0,
+              "volume": 22948172.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-04-11",
+              "close": 55200.0,
+              "volume": 13930480.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-04-14",
+              "close": 56200.0,
+              "volume": 12852613.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-04-15",
+              "close": 56600.0,
+              "volume": 8998640.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-04-16",
+              "close": 54700.0,
+              "volume": 14437025.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-04-17",
+              "close": 55100.0,
+              "volume": 10867069.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-04-18",
+              "close": 55300.0,
+              "volume": 5848342.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-04-21",
+              "close": 55400.0,
+              "volume": 5941847.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-04-22",
+              "close": 55000.0,
+              "volume": 9532469.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-04-23",
+              "close": 55700.0,
+              "volume": 11148692.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-04-24",
+              "close": 55700.0,
+              "volume": 10580377.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-04-25",
+              "close": 55700.0,
+              "volume": 12183303.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-04-28",
+              "close": 55800.0,
+              "volume": 9341518.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-04-29",
+              "close": 55800.0,
+              "volume": 10295518.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-04-30",
+              "close": 55500.0,
+              "volume": 13014189.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-05-02",
+              "close": 54300.0,
+              "volume": 22454204.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-05-07",
+              "close": 54600.0,
+              "volume": 17136991.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-05-08",
+              "close": 54600.0,
+              "volume": 16320532.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-05-09",
+              "close": 54800.0,
+              "volume": 7814322.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-05-12",
+              "close": 57600.0,
+              "volume": 15414702.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-05-13",
+              "close": 56900.0,
+              "volume": 16842801.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-05-14",
+              "close": 57400.0,
+              "volume": 12468089.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-05-15",
+              "close": 57300.0,
+              "volume": 13139736.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-05-16",
+              "close": 56800.0,
+              "volume": 10385352.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-05-19",
+              "close": 55800.0,
+              "volume": 9802105.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-05-20",
+              "close": 55900.0,
+              "volume": 9080577.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-05-21",
+              "close": 55700.0,
+              "volume": 7794181.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-05-22",
+              "close": 54700.0,
+              "volume": 15254278.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-05-23",
+              "close": 54200.0,
+              "volume": 11247115.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-05-26",
+              "close": 54700.0,
+              "volume": 10901337.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-05-27",
+              "close": 53900.0,
+              "volume": 13439520.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-05-28",
+              "close": 55900.0,
+              "volume": 17516283.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-05-29",
+              "close": 56100.0,
+              "volume": 12936810.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-05-30",
+              "close": 56200.0,
+              "volume": 26219683.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-06-02",
+              "close": 56800.0,
+              "volume": 12870515.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-06-04",
+              "close": 57800.0,
+              "volume": 19649983.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-06-05",
+              "close": 59100.0,
+              "volume": 23266027.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-06-09",
+              "close": 59800.0,
+              "volume": 19609659.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-06-10",
+              "close": 59200.0,
+              "volume": 15305760.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-06-11",
+              "close": 59900.0,
+              "volume": 13610734.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-06-12",
+              "close": 59500.0,
+              "volume": 17755115.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-06-13",
+              "close": 58300.0,
+              "volume": 20705979.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-06-16",
+              "close": 57200.0,
+              "volume": 22200872.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-06-17",
+              "close": 58100.0,
+              "volume": 28637003.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-06-18",
+              "close": 59800.0,
+              "volume": 17620705.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-06-19",
+              "close": 59200.0,
+              "volume": 16876278.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-06-20",
+              "close": 59500.0,
+              "volume": 18072251.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-06-23",
+              "close": 58000.0,
+              "volume": 16551694.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-06-24",
+              "close": 60500.0,
+              "volume": 23737899.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-06-25",
+              "close": 61300.0,
+              "volume": 23933612.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-06-26",
+              "close": 60200.0,
+              "volume": 19402300.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-06-27",
+              "close": 60800.0,
+              "volume": 17340470.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-06-30",
+              "close": 59800.0,
+              "volume": 17110294.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-07-01",
+              "close": 60200.0,
+              "volume": 13650991.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-07-02",
+              "close": 60800.0,
+              "volume": 15047951.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-07-03",
+              "close": 63800.0,
+              "volume": 32040639.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-07-04",
+              "close": 63300.0,
+              "volume": 23748959.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-07-07",
+              "close": 61700.0,
+              "volume": 17164708.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-07-08",
+              "close": 61400.0,
+              "volume": 20213724.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-07-09",
+              "close": 60400.0,
+              "volume": 17533415.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-07-10",
+              "close": 61000.0,
+              "volume": 14768473.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-07-11",
+              "close": 62600.0,
+              "volume": 19140650.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-07-14",
+              "close": 62500.0,
+              "volume": 13563846.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-07-15",
+              "close": 63700.0,
+              "volume": 18442202.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-07-16",
+              "close": 64700.0,
+              "volume": 23042660.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-07-17",
+              "close": 66700.0,
+              "volume": 39448683.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-07-18",
+              "close": 67100.0,
+              "volume": 23951531.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-07-21",
+              "close": 67800.0,
+              "volume": 17723148.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-07-22",
+              "close": 66000.0,
+              "volume": 20829006.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-07-23",
+              "close": 66400.0,
+              "volume": 15687058.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-07-24",
+              "close": 66000.0,
+              "volume": 12660193.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-07-25",
+              "close": 65900.0,
+              "volume": 8080910.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-07-28",
+              "close": 70400.0,
+              "volume": 35332500.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-07-29",
+              "close": 70600.0,
+              "volume": 28190940.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-07-30",
+              "close": 72600.0,
+              "volume": 34761444.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-07-31",
+              "close": 71400.0,
+              "volume": 26568072.0,
+              "available_at": null
+            },
+            {
+              "trade_date": "2025-08-01",
+              "close": 68900.0,
+              "volume": 24038534.0,
+              "available_at": null
+            }
+          ],
+          "adjustment": "Naver chart close; exact split/dividend convention unverified",
+          "calendar_ref": "https://global.krx.co.kr/contents/GLB/05/0501/0501110000/GLB0501110000.jsp",
+          "expected_sessions": [
+            "2025-04-07",
+            "2025-04-08",
+            "2025-04-09",
+            "2025-04-10",
+            "2025-04-11",
+            "2025-04-14",
+            "2025-04-15",
+            "2025-04-16",
+            "2025-04-17",
+            "2025-04-18",
+            "2025-04-21",
+            "2025-04-22",
+            "2025-04-23",
+            "2025-04-24",
+            "2025-04-25",
+            "2025-04-28",
+            "2025-04-29",
+            "2025-04-30",
+            "2025-05-02",
+            "2025-05-07",
+            "2025-05-08",
+            "2025-05-09",
+            "2025-05-12",
+            "2025-05-13",
+            "2025-05-14",
+            "2025-05-15",
+            "2025-05-16",
+            "2025-05-19",
+            "2025-05-20",
+            "2025-05-21",
+            "2025-05-22",
+            "2025-05-23",
+            "2025-05-26",
+            "2025-05-27",
+            "2025-05-28",
+            "2025-05-29",
+            "2025-05-30",
+            "2025-06-02",
+            "2025-06-04",
+            "2025-06-05",
+            "2025-06-09",
+            "2025-06-10",
+            "2025-06-11",
+            "2025-06-12",
+            "2025-06-13",
+            "2025-06-16",
+            "2025-06-17",
+            "2025-06-18",
+            "2025-06-19",
+            "2025-06-20",
+            "2025-06-23",
+            "2025-06-24",
+            "2025-06-25",
+            "2025-06-26",
+            "2025-06-27",
+            "2025-06-30",
+            "2025-07-01",
+            "2025-07-02",
+            "2025-07-03",
+            "2025-07-04",
+            "2025-07-07",
+            "2025-07-08",
+            "2025-07-09",
+            "2025-07-10",
+            "2025-07-11",
+            "2025-07-14",
+            "2025-07-15",
+            "2025-07-16",
+            "2025-07-17",
+            "2025-07-18",
+            "2025-07-21",
+            "2025-07-22",
+            "2025-07-23",
+            "2025-07-24",
+            "2025-07-25",
+            "2025-07-28",
+            "2025-07-29",
+            "2025-07-30",
+            "2025-07-31",
+            "2025-08-01"
+          ],
+          "corporate_action_review": "Historical adjustment not certified; prices cross-checked with Yahoo Close over available overlap."
+        }
+      },
+      {
+        "id": "samsung_q2",
+        "role": "news",
+        "kind": "news",
+        "origin": "samsung_q2",
+        "parents": [],
+        "payload": {
+          "text": "Quarterly revenue of KRW 74.6 trillion, operating profit at KRW 4.7 trillion\n\nSamsung Electronics today reported financial results for the second quarter ended June 30, 2025.\n\nThe Company posted KRW 74.6 trillion in consolidated revenue, a decrease of 5.8% compared to the previous quarter. Operating profit decreased to KRW 4.7 trillion.\nThe Device Solutions (DS) Division reported an increase in revenue on the back of expanded sales of high density, high-performance memory products, but inventory value adjustments in memory and one-off costs related to the impacts of export restrictions related to China in non-memory had an adverse effect on profit.\nIn the Device eXperience (DX) Division, operating profit declined quarter-on-quarter due to a sequential decline in sales volume following the launch of new smartphone models in the first quarter.\nLooking ahead to H2, the DS Division plans to proactively meet the growing demand for high-value-added and AI-driven products and continue to strengthen competitiveness in advanced semiconductors. The DX Division will seek to minimize the impact of uncertainties stemming from tariff policies that are likely to persist.\n### Semiconductors Expected To Proactively Meet Continued AI Demand\n\nThe DS Division posted KRW 27.9 trillion in consolidated revenue and KRW 0.4 trillion in operating profit for the second quarter.\nIn Q2 2025, the Memory Business proactively addressed robust server demand by expanding HBM3E sales and by expanding the proportion of high-density DDR5 products. Also, with the resumption of datacenter projects that were previously delayed, sales of server SSDs increased, helping NAND inventory to decrease significantly. However, earnings were impacted by one-off costs such as inventory value adjustments.\nIn H2 2025, AI demand is expected to remain robust due to continued investments by major cloud service providers, and therefore server demand for both DRAM and NAND is expected to stay strong.\nTo align with solid AI-server demand for DRAM, the Memory Business will proactively address the need for high-density products and diversify product offerings through HBM, server LPDDR5x, high-density DDR5, 24Gb GDDR7 and other products. For NAND, the Memory Business plans to increase sales of high-density and high-performance SSDs while accelerating the transition to 8^{th} Generation V-NAND across all applications.\nThe System LSI Business generated solid revenue from shipments of flagship systems-on-a-chip (SoCs) using the Gate-All-Around (GAA) process, but earnings improvement was limited due to higher costs of developing advanced products.\n\nIn H2 2025, the System LSI Business will focus on improving Exynos competitiveness to ensure its adoption in 2026 flagship mobile lineups of a major customer and expanding the sales of ultra-high-resolution and nano-prism sensors.\nDespite significant growth in revenue from the first quarter, earnings for the Foundry Business remained weak due to the impact of inventory value adjustments that stemmed from US export restrictions on advanced AI chips to China, as well as a continued low utilization rates at mature nodes.\n\nIn H2 2025, the Foundry Business will ramp up mass production of a new mobile SoC with the 2nm GAA process. It also aims to improve factory utilization and profitability through expanded sales to major customers.",
+          "company_codes": [
+            "005930"
+          ],
+          "excerpt_scope": "Original quarterly overview and semiconductor section, recorded lines 73-92; other divisions omitted."
+        },
+        "available_at": "2025-07-31T00:00:00+09:00",
+        "precision": "date",
+        "source_ref": "https://news.samsung.com/global/samsung-electronics-announces-second-quarter-2025-results",
+        "version_ref": "retrospective-sha256:12e5aae8db37f835b1c17efa0e9796c008a7f41a7b8ad6964faf43a541739440",
+        "availability_basis": "공식 글로벌 뉴스룸의 Korea on July 31, 2025 표시. 기존 보존 추출본 재사용. Published date/time checked; historical page version not certified."
+      },
+      {
+        "id": "tech_samsung_q2",
+        "role": "semiconductor",
+        "kind": "derived",
+        "origin": "samsung_q2",
+        "parents": [
+          "samsung_q2"
+        ],
+        "payload": {
+          "text": "Quarterly revenue of KRW 74.6 trillion, operating profit at KRW 4.7 trillion\n\nSamsung Electronics today reported financial results for the second quarter ended June 30, 2025.\n\nThe Company posted KRW 74.6 trillion in consolidated revenue, a decrease of 5.8% compared to the previous quarter. Operating profit decreased to KRW 4.7 trillion.\nThe Device Solutions (DS) Division reported an increase in revenue on the back of expanded sales of high density, high-performance memory products, but inventory value adjustments in memory and one-off costs related to the impacts of export restrictions related to China in non-memory had an adverse effect on profit.\nIn the Device eXperience (DX) Division, operating profit declined quarter-on-quarter due to a sequential decline in sales volume following the launch of new smartphone models in the first quarter.\nLooking ahead to H2, the DS Division plans to proactively meet the growing demand for high-value-added and AI-driven products and continue to strengthen competitiveness in advanced semiconductors. The DX Division will seek to minimize the impact of uncertainties stemming from tariff policies that are likely to persist.\n### Semiconductors Expected To Proactively Meet Continued AI Demand\n\nThe DS Division posted KRW 27.9 trillion in consolidated revenue and KRW 0.4 trillion in operating profit for the second quarter.\nIn Q2 2025, the Memory Business proactively addressed robust server demand by expanding HBM3E sales and by expanding the proportion of high-density DDR5 products. Also, with the resumption of datacenter projects that were previously delayed, sales of server SSDs increased, helping NAND inventory to decrease significantly. However, earnings were impacted by one-off costs such as inventory value adjustments.\nIn H2 2025, AI demand is expected to remain robust due to continued investments by major cloud service providers, and therefore server demand for both DRAM and NAND is expected to stay strong.\nTo align with solid AI-server demand for DRAM, the Memory Business will proactively address the need for high-density products and diversify product offerings through HBM, server LPDDR5x, high-density DDR5, 24Gb GDDR7 and other products. For NAND, the Memory Business plans to increase sales of high-density and high-performance SSDs while accelerating the transition to 8^{th} Generation V-NAND across all applications.\nThe System LSI Business generated solid revenue from shipments of flagship systems-on-a-chip (SoCs) using the Gate-All-Around (GAA) process, but earnings improvement was limited due to higher costs of developing advanced products.\n\nIn H2 2025, the System LSI Business will focus on improving Exynos competitiveness to ensure its adoption in 2026 flagship mobile lineups of a major customer and expanding the sales of ultra-high-resolution and nano-prism sensors.\nDespite significant growth in revenue from the first quarter, earnings for the Foundry Business remained weak due to the impact of inventory value adjustments that stemmed from US export restrictions on advanced AI chips to China, as well as a continued low utilization rates at mature nodes.\n\nIn H2 2025, the Foundry Business will ramp up mass production of a new mobile SoC with the 2nm GAA process. It also aims to improve factory utilization and profitability through expanded sales to major customers.",
+          "company_codes": [
+            "005930"
+          ],
+          "excerpt_scope": "Original quarterly overview and semiconductor section, recorded lines 73-92; other divisions omitted."
+        },
+        "available_at": "2025-07-31T00:00:00+09:00",
+        "precision": "date",
+        "source_ref": "https://news.samsung.com/global/samsung-electronics-announces-second-quarter-2025-results",
+        "version_ref": "retrospective-sha256:12e5aae8db37f835b1c17efa0e9796c008a7f41a7b8ad6964faf43a541739440",
+        "availability_basis": "공식 글로벌 뉴스룸의 Korea on July 31, 2025 표시. 기존 보존 추출본 재사용. Published date/time checked; historical page version not certified."
+      },
+      {
+        "id": "sk_q2",
+        "role": "news",
+        "kind": "news",
+        "origin": "sk_q2",
+        "parents": [],
+        "payload": {
+          "text": "Seoul, July 24, 2025\nSK hynix Inc. (or “the company”,\nwww.skhynix.com\n) announced today that it has recorded 22.232 trillion won in revenues, 9.2129 trillion won in operating profit(with an operating margin of 41%), and 6.9962 trillion won in net profit(with a net margin of 31%) in the second quarter.\nBoth revenues and operating profits stood at all-time highs, beating the previous best results in the fourth quarter of last year.\nThe company said that an aggressive investment by global big tech companies into AI led to a steady increase in demand for AI memory. Shipments of both DRAM and NAND flash were higher than expected, helping the company log the best quarterly results.\nSK hynix expanded sales of 12-high HBM3E in the DRAM space, while registering a growth in sales of NAND for all applications. With the industry-leading competitiveness in AI memory and profitability-first management discipline, the company has maintained a positive earnings trend.\nWith the latest financial results, the company’s cash and cash equivalents increased to 17 trillion won at the end of June, up by 2.7 trillion won a quarter earlier. Its debt ratio and net debt ratio stood at 25% and 6%, respectively, as net debt fell by 4.1 trillion won, compared with the previous quarter.\nIn the second quarter, the inventory level was kept steady as customers increased both memory orders and production of their finished products. Demand for memory is expected to continue to grow as customers plan to launch new products in the second half.\nParticularly, SK hynix foresees that increasing competition among big tech companies to enhance inference of AI models would lead to higher demand for high-performance and high-capacity memory products. Ongoing investments by nations to build sovereign AI\n*\nwould also help generate long-term demand for memory, it said.\n*\nSovereign AI: a nation’s ability to build an independent AI system with its own infrastructure, data, talent and business network\nThe company expects the solid performance of its products and mass-production capabilities to help double HBM, compared with a year earlier, to generate stable earnings. It will also ensure timely provision of HBM4 in accordance with customers’ requests to remain competitive.\nSK hynix will start provision of an LPDDR-based module for servers within this year, and prepare for GDDR7 products for AI GPUs with an expanded capacity of 24Gb from 16Gb in a bid to enhance its leadership in the AI memory market with product diversification.\nFor the NAND business, the company will maintain a prudent stance for investments considering demand conditions and profitability-first discipline, while continuing with product developments in preparation for improvements in market conditions. Particularly, it will expand sales of QLC-based high-capacity eSSD and build 321-high NAND-based product portfolio to enhance its market leadership.\nSong Hyun Jong, President and Head of Corporate Center, said that SK hynix will carry out part of the planned investments preemptively this year for smooth provision of major products with visible demand for next year including HBM. “We are on track to meet our goal as a Full Stack AI Memory Provider satisfying customers and leading market expansion through timely launch of products with best-in-class quality and performance required by the AI ecosystem.”\n■ 2Q25 Financial Results (K-IFRS)\nUnit: Billion KRW\n2Q25\nQoQ\nYoY\n1Q25\nChange\n2Q24\nChange\nRevenues\n22,232\n17,639.1\n26%\n16,423.3\n35%\nOperating Profit\n9,212.9\n7,440.5\n24%\n5,468.5\n68%\nOperating Margin\n41%\n42%\n-1%p\n33%\n8%p\nNet Income\n6,996.2\n8,108.2\n-14%\n4,120\n70%\n※ Financial information of the earnings is based on K-IFRS\n※ Please note that the financial results discussed herein are preliminary and speak only as of July 24, 2025. Readers should not assume that this information remains operative at a later time.",
+          "company_codes": [
+            "000660"
+          ],
+          "excerpt_scope": "Original release and table through preliminary-results disclaimer; related articles omitted."
+        },
+        "available_at": "2025-07-24T00:00:00+09:00",
+        "precision": "date",
+        "source_ref": "https://news.skhynix.com/en/sk-hynix-announces-2q25-financial-results/",
+        "version_ref": "retrospective-sha256:406031948cbf4785126b02f53a9a290186e2f17846f4bcdd06c7ce01e86213e7",
+        "availability_basis": "본문 Seoul, July 24, 2025 및 잠정 실적 기준일을 채택. 웹 추출 머리말 7/23과 차이가 있어 더 늦은 서울 본문 날짜로 보수적 처리. Published date/time checked; historical page version not certified."
+      },
+      {
+        "id": "tech_sk_q2",
+        "role": "semiconductor",
+        "kind": "derived",
+        "origin": "sk_q2",
+        "parents": [
+          "sk_q2"
+        ],
+        "payload": {
+          "text": "Seoul, July 24, 2025\nSK hynix Inc. (or “the company”,\nwww.skhynix.com\n) announced today that it has recorded 22.232 trillion won in revenues, 9.2129 trillion won in operating profit(with an operating margin of 41%), and 6.9962 trillion won in net profit(with a net margin of 31%) in the second quarter.\nBoth revenues and operating profits stood at all-time highs, beating the previous best results in the fourth quarter of last year.\nThe company said that an aggressive investment by global big tech companies into AI led to a steady increase in demand for AI memory. Shipments of both DRAM and NAND flash were higher than expected, helping the company log the best quarterly results.\nSK hynix expanded sales of 12-high HBM3E in the DRAM space, while registering a growth in sales of NAND for all applications. With the industry-leading competitiveness in AI memory and profitability-first management discipline, the company has maintained a positive earnings trend.\nWith the latest financial results, the company’s cash and cash equivalents increased to 17 trillion won at the end of June, up by 2.7 trillion won a quarter earlier. Its debt ratio and net debt ratio stood at 25% and 6%, respectively, as net debt fell by 4.1 trillion won, compared with the previous quarter.\nIn the second quarter, the inventory level was kept steady as customers increased both memory orders and production of their finished products. Demand for memory is expected to continue to grow as customers plan to launch new products in the second half.\nParticularly, SK hynix foresees that increasing competition among big tech companies to enhance inference of AI models would lead to higher demand for high-performance and high-capacity memory products. Ongoing investments by nations to build sovereign AI\n*\nwould also help generate long-term demand for memory, it said.\n*\nSovereign AI: a nation’s ability to build an independent AI system with its own infrastructure, data, talent and business network\nThe company expects the solid performance of its products and mass-production capabilities to help double HBM, compared with a year earlier, to generate stable earnings. It will also ensure timely provision of HBM4 in accordance with customers’ requests to remain competitive.\nSK hynix will start provision of an LPDDR-based module for servers within this year, and prepare for GDDR7 products for AI GPUs with an expanded capacity of 24Gb from 16Gb in a bid to enhance its leadership in the AI memory market with product diversification.\nFor the NAND business, the company will maintain a prudent stance for investments considering demand conditions and profitability-first discipline, while continuing with product developments in preparation for improvements in market conditions. Particularly, it will expand sales of QLC-based high-capacity eSSD and build 321-high NAND-based product portfolio to enhance its market leadership.\nSong Hyun Jong, President and Head of Corporate Center, said that SK hynix will carry out part of the planned investments preemptively this year for smooth provision of major products with visible demand for next year including HBM. “We are on track to meet our goal as a Full Stack AI Memory Provider satisfying customers and leading market expansion through timely launch of products with best-in-class quality and performance required by the AI ecosystem.”\n■ 2Q25 Financial Results (K-IFRS)\nUnit: Billion KRW\n2Q25\nQoQ\nYoY\n1Q25\nChange\n2Q24\nChange\nRevenues\n22,232\n17,639.1\n26%\n16,423.3\n35%\nOperating Profit\n9,212.9\n7,440.5\n24%\n5,468.5\n68%\nOperating Margin\n41%\n42%\n-1%p\n33%\n8%p\nNet Income\n6,996.2\n8,108.2\n-14%\n4,120\n70%\n※ Financial information of the earnings is based on K-IFRS\n※ Please note that the financial results discussed herein are preliminary and speak only as of July 24, 2025. Readers should not assume that this information remains operative at a later time.",
+          "company_codes": [
+            "000660"
+          ],
+          "excerpt_scope": "Original release and table through preliminary-results disclaimer; related articles omitted."
+        },
+        "available_at": "2025-07-24T00:00:00+09:00",
+        "precision": "date",
+        "source_ref": "https://news.skhynix.com/en/sk-hynix-announces-2q25-financial-results/",
+        "version_ref": "retrospective-sha256:406031948cbf4785126b02f53a9a290186e2f17846f4bcdd06c7ce01e86213e7",
+        "availability_basis": "본문 Seoul, July 24, 2025 및 잠정 실적 기준일을 채택. 웹 추출 머리말 7/23과 차이가 있어 더 늦은 서울 본문 날짜로 보수적 처리. Published date/time checked; historical page version not certified."
+      },
+      {
+        "id": "hanmi_q2",
+        "role": "news",
+        "kind": "disclosure",
+        "origin": "hanmi_q2",
+        "parents": [],
+        "payload": {
+          "text": "한미반도체/연결재무제표기준영업(잠정)실적(공정공시)/(2025.07.25)연결재무제표기준영업(잠정)실적(공정공시)\n연결재무제표 기준 영업(잠정)실적(공정공시)\n※ 동 정보는 잠정치로서 향후 확정치와는 다를 수 있음.\n1. 연결실적내용\n단위 : 백만원, %\n구분\n당기실적\n전기실적\n전기대비증감율(%)\n전년동기실적\n전년동기대비증감율(%)\n('25.2Q)\n('25.1Q)\n('24.2Q)\n매출액\n당해실적\n180,047\n147,392\n22.2\n123,478\n45.8\n누계실적\n327,439\n147,392\n-\n200,796\n63.1\n영업이익\n당해실적\n86,308\n69,632\n23.9\n55,438\n55.7\n누계실적\n155,940\n69,632\n-\n84,144\n85.3\n법인세비용차감전계속사업이익\n당해실적\n-\n-\n-\n-\n-\n누계실적\n-\n-\n-\n-\n-\n당기순이익\n당해실적\n-\n-\n-\n-\n-\n누계실적\n-\n-\n-\n-\n-\n지배기업 소유주지분 순이익\n당해실적\n-\n-\n-\n-\n-\n누계실적\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n2. 정보제공내역\n정보제공자\nIR부\n정보제공대상자\n국내외 기관투자자, 애널리스트,\n언론기관, 일반투자자 등\n정보제공(예정)일시\n본 공정공시후 수시 제공\n행사명(장소)\n-\n3. 연락처(관련부서/전화번호)\nIR부 / 032-580-1707\n4. 기타 투자판단과 관련한 중요사항\n※ 위 정보는 투자자들의 편의를 위해 제공되는 K-IFRS '연결'기준 잠정수치로써\n외부감사인의 감사(또는 검토)를 받지 않은 정보이므로 향후 변동될 수 있음을\n양지하시길 바랍니다\n※ 관련공시\n-",
+          "company_codes": [
+            "042700"
+          ],
+          "excerpt_scope": "Original DART disclosure text including table units and provisional-status warning."
+        },
+        "available_at": "2025-07-25T00:00:00+09:00",
+        "precision": "date",
+        "source_ref": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250725800047",
+        "version_ref": "retrospective-sha256:f402ab3f8ffc5c083991077a333c16de0c3455880944d0e5863139f792cab811",
+        "availability_basis": "DART 접수번호 20250725800047 목록 접수일과 해당 본문의 2025.07.25 표시를 대조. 시각은 추정하지 않음. Published date/time checked; historical page version not certified."
+      },
+      {
+        "id": "tech_hanmi_q2",
+        "role": "semiconductor",
+        "kind": "derived",
+        "origin": "hanmi_q2",
+        "parents": [
+          "hanmi_q2"
+        ],
+        "payload": {
+          "text": "한미반도체/연결재무제표기준영업(잠정)실적(공정공시)/(2025.07.25)연결재무제표기준영업(잠정)실적(공정공시)\n연결재무제표 기준 영업(잠정)실적(공정공시)\n※ 동 정보는 잠정치로서 향후 확정치와는 다를 수 있음.\n1. 연결실적내용\n단위 : 백만원, %\n구분\n당기실적\n전기실적\n전기대비증감율(%)\n전년동기실적\n전년동기대비증감율(%)\n('25.2Q)\n('25.1Q)\n('24.2Q)\n매출액\n당해실적\n180,047\n147,392\n22.2\n123,478\n45.8\n누계실적\n327,439\n147,392\n-\n200,796\n63.1\n영업이익\n당해실적\n86,308\n69,632\n23.9\n55,438\n55.7\n누계실적\n155,940\n69,632\n-\n84,144\n85.3\n법인세비용차감전계속사업이익\n당해실적\n-\n-\n-\n-\n-\n누계실적\n-\n-\n-\n-\n-\n당기순이익\n당해실적\n-\n-\n-\n-\n-\n누계실적\n-\n-\n-\n-\n-\n지배기업 소유주지분 순이익\n당해실적\n-\n-\n-\n-\n-\n누계실적\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n2. 정보제공내역\n정보제공자\nIR부\n정보제공대상자\n국내외 기관투자자, 애널리스트,\n언론기관, 일반투자자 등\n정보제공(예정)일시\n본 공정공시후 수시 제공\n행사명(장소)\n-\n3. 연락처(관련부서/전화번호)\nIR부 / 032-580-1707\n4. 기타 투자판단과 관련한 중요사항\n※ 위 정보는 투자자들의 편의를 위해 제공되는 K-IFRS '연결'기준 잠정수치로써\n외부감사인의 감사(또는 검토)를 받지 않은 정보이므로 향후 변동될 수 있음을\n양지하시길 바랍니다\n※ 관련공시\n-",
+          "company_codes": [
+            "042700"
+          ],
+          "excerpt_scope": "Original DART disclosure text including table units and provisional-status warning."
+        },
+        "available_at": "2025-07-25T00:00:00+09:00",
+        "precision": "date",
+        "source_ref": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250725800047",
+        "version_ref": "retrospective-sha256:f402ab3f8ffc5c083991077a333c16de0c3455880944d0e5863139f792cab811",
+        "availability_basis": "DART 접수번호 20250725800047 목록 접수일과 해당 본문의 2025.07.25 표시를 대조. 시각은 추정하지 않음. Published date/time checked; historical page version not certified."
+      },
+      {
+        "id": "fed_statement",
+        "role": "economy",
+        "kind": "economy",
+        "origin": "fed_statement",
+        "parents": [],
+        "payload": {
+          "text": "July 30, 2025\nFederal Reserve issues FOMC statement\nFor release at 2:00 p.m. EDT\nShare\nAlthough swings in net exports continue to affect the data, recent indicators suggest that growth of economic activity moderated in the first half of the year. The unemployment rate remains low, and labor market conditions remain solid. Inflation remains somewhat elevated.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. Uncertainty about the economic outlook remains elevated. The Committee is attentive to the risks to both sides of its dual mandate.\nIn support of its goals, the Committee decided to maintain the target range for the federal funds rate at 4-1/4 to 4-1/2 percent. In considering the extent and timing of additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks. The Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities. The Committee is strongly committed to supporting maximum employment and returning inflation to its 2 percent objective.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\nVoting for the monetary policy action were Jerome H. Powell, Chair; John C. Williams, Vice Chair; Michael S. Barr; Susan M. Collins; Lisa D. Cook; Austan D. Goolsbee; Philip N. Jefferson; Alberto G. Musalem; and Jeffrey R. Schmid. Voting against this action were Michelle W. Bowman and Christopher J. Waller, who preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting. Absent and not voting was Adriana D. Kugler.",
+          "company_codes": [],
+          "excerpt_scope": "Dated original policy statement through voting record; navigation/contact omitted."
+        },
+        "available_at": "2025-07-30T14:00:00-04:00",
+        "precision": "timestamp",
+        "source_ref": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250730a.htm",
+        "version_ref": "retrospective-sha256:626868fc329b654c2b4ed431d78780834c5c14e9eb0294b0d759cacb697db438",
+        "availability_basis": "연준 성명 July 30, 2025 / For release at 2:00 p.m. EDT 표시. 현재 수정 시계열 대신 당시 성명 사용. Published date/time checked; historical page version not certified."
+      }
+    ],
+    "limitations": [
+      "VINTAGE_UNVERIFIED",
+      "HUMAN_REVIEW_PENDING",
+      "NOT_EVALUATION_ELIGIBLE",
+      "PRICE_AVAILABILITY_UNVERIFIED",
+      "PRICE_ADJUSTMENT_UNVERIFIED"
+    ]
+  },
+  "analyses": [
+    {
+      "role": "news",
+      "input_sha256": "3c3849aa432e2beb3cfcb73c50bd745442c7b0398a6ed1f3154e86cbba5973e3",
+      "analysis": {
+        "d7": {
+          "primary_evidence_id": "samsung_q2",
+          "supporting_evidence_ids": [
+            "samsung_q2"
+          ],
+          "direction": "Bearish",
+          "mechanism": "삼성전자의 2025년 2분기 반도체 부문 이익이 감소한 점은 향후 주가에 부정적인 영향을 미칠 수 있다. 특히, 반도체 부문에서의 수익성이 개선되지 않으면 주가는 하락세를 지속할 가능성이 있다.",
+          "counter_condition": "반도체 부문에서의 수익성이 개선되면 주가가 반등할 수 있다.",
+          "missing": "2025년 2분기 이후 반도체 부문 실적에 대한 구체적인 전망이 부족하다."
+        },
+        "d14": {
+          "primary_evidence_id": "samsung_q2",
+          "supporting_evidence_ids": [
+            "samsung_q2"
+          ],
+          "direction": "Bearish",
+          "mechanism": "삼성전자의 2025년 2분기 매출이 전분기 대비 5.8% 감소한 점은 향후 실적에 부정적인 영향을 미칠 수 있다. 특히, 반도체 부문에서의 이익 감소가 지속된다면, 시장의 신뢰도 하락으로 주가가 추가 하락할 가능성이 있다.",
+          "counter_condition": "매출 감소가 지속되면 추가 하락세가 이어질 수 있다.",
+          "missing": "2025년 2분기 이후 삼성전자의 매출 및 이익에 대한 구체적인 전망이 부족하다."
+        },
+        "d30": {
+          "primary_evidence_id": "samsung_q2",
+          "supporting_evidence_ids": [
+            "samsung_q2"
+          ],
+          "direction": "Bearish",
+          "mechanism": "삼성전자의 반도체 부문에서의 이익 감소는 AI 수요 증가에도 불구하고 재고 조정과 일회성 비용이 영향을 미쳤기 때문에, 이러한 부정적인 요소가 지속된다면 주가는 하락할 수 있다.",
+          "counter_condition": "AI 수요 증가가 확인되면 반도체 부문 실적이 개선될 수 있다.",
+          "missing": "2025년 하반기 반도체 부문 실적에 대한 구체적인 수치가 확인되지 않았다."
+        }
+      }
+    },
+    {
+      "role": "economy",
+      "input_sha256": "4c3555a9a6adaa94a0999f0b40f8ed86db8d712dd06f52209dc49b58040f3b23",
+      "analysis": {
+        "d7": {
+          "primary_evidence_id": "fed_statement",
+          "supporting_evidence_ids": [],
+          "direction": "Bearish",
+          "mechanism": "금리 인상이 소비자 대출 비용을 증가시켜 소비를 위축시키고, 이는 삼성전자의 매출 감소로 이어질 수 있다.",
+          "counter_condition": "금리가 예상보다 더 상승하거나 물가가 지속적으로 상승할 경우, 소비자 지출이 감소하여 삼성전자의 주문이 줄어들 수 있다.",
+          "missing": "현재 삼성전자의 주문 및 매출 변화에 대한 구체적인 데이터가 부족하다."
+        },
+        "d14": {
+          "primary_evidence_id": "fed_statement",
+          "supporting_evidence_ids": [],
+          "direction": "Bearish",
+          "mechanism": "금리 인상이 소비자 대출 비용을 증가시켜 소비를 위축시키고, 이는 삼성전자의 매출 감소로 이어질 수 있다.",
+          "counter_condition": "금리가 예상보다 더 상승하거나 물가가 지속적으로 상승할 경우, 소비자 지출이 감소하여 삼성전자의 주문이 줄어들 수 있다.",
+          "missing": "현재 삼성전자의 주문 및 매출 변화에 대한 구체적인 데이터가 부족하다."
+        },
+        "d30": {
+          "primary_evidence_id": "fed_statement",
+          "supporting_evidence_ids": [],
+          "direction": "Bearish",
+          "mechanism": "금리 인상이 소비자 대출 비용을 증가시켜 소비를 위축시키고, 이는 삼성전자의 매출 감소로 이어질 수 있다.",
+          "counter_condition": "금리가 예상보다 더 상승하거나 물가가 지속적으로 상승할 경우, 소비자 지출이 감소하여 삼성전자의 주문이 줄어들 수 있다.",
+          "missing": "현재 삼성전자의 주문 및 매출 변화에 대한 구체적인 데이터가 부족하다."
+        }
+      }
+    },
+    {
+      "role": "market",
+      "input_sha256": "54bfec26627bc8f012bdce5fad4b28fca1bd79831e808ac1063a9f3525d2bfd7",
+      "analysis": {
+        "d7": {
+          "primary_evidence_id": "price_005930",
+          "supporting_evidence_ids": [],
+          "direction": "Neutral",
+          "mechanism": "과거 가격의 변동성을 기반으로 한 예측이므로, 향후 방향성을 확정짓기 어렵다.",
+          "counter_condition": "향후 7일 동안 가격이 하락할 경우 추가 하락이 발생할 수 있다.",
+          "missing": "향후 7일에 대한 예측 근거가 부족하다."
+        },
+        "d14": {
+          "primary_evidence_id": "price_005930",
+          "supporting_evidence_ids": [],
+          "direction": "Neutral",
+          "mechanism": "과거 가격의 변동성을 기반으로 한 예측이므로, 향후 방향성을 확정짓기 어렵다.",
+          "counter_condition": "향후 14일 동안 가격이 하락할 경우 추가 하락이 발생할 수 있다.",
+          "missing": "향후 14일에 대한 예측 근거가 부족하다."
+        },
+        "d30": {
+          "primary_evidence_id": "price_005930",
+          "supporting_evidence_ids": [],
+          "direction": "Neutral",
+          "mechanism": "과거 가격의 패턴을 기반으로 한 예측이므로, 향후 방향성을 확정짓기 어렵다.",
+          "counter_condition": "향후 30일 동안 가격이 상승할 경우 상승세가 지속될 가능성이 있다.",
+          "missing": "향후 30일에 대한 예측 근거가 부족하다."
+        }
+      }
+    },
+    {
+      "role": "semiconductor",
+      "input_sha256": "cee1c54859564d12abb9cc11f752ca815204a4acd1a2a6b4d65b74f152d567a6",
+      "analysis": {
+        "d7": {
+          "primary_evidence_id": "tech_samsung_q2",
+          "supporting_evidence_ids": [
+            "tech_samsung_q2"
+          ],
+          "direction": "Bullish",
+          "mechanism": "삼성전자의 DS 부문은 AI 수요에 맞춰 제품 라인업을 강화하고 있으며, 이는 반도체 수요 증가로 이어질 것으로 예상된다. 특히, 서버 및 데이터 센터의 수요가 증가하고 있다.",
+          "counter_condition": "AI 관련 투자 감소가 발생하면 반도체 수요가 줄어들 수 있다.",
+          "missing": "삼성전자의 반도체 제품별 고객사 및 수주 내역에 대한 구체적인 정보가 부족하다."
+        },
+        "d14": {
+          "primary_evidence_id": "tech_samsung_q2",
+          "supporting_evidence_ids": [
+            "tech_samsung_q2"
+          ],
+          "direction": "Bullish",
+          "mechanism": "삼성전자의 DS 부문은 AI 수요 증가에 대응하여 고밀도 메모리 제품의 판매를 확대하고 있으며, 이는 반도체 수요 증가로 이어질 것으로 예상된다. 특히, 서버 수요가 강세를 보이고 있어 DRAM 및 NAND의 수요가 지속적으로 증가할 것으로 보인다.",
+          "counter_condition": "AI 수요가 예상보다 둔화된다면 반도체 수요 감소로 이어질 수 있다.",
+          "missing": "삼성전자의 특정 고객사 및 수주 내역에 대한 구체적인 정보가 부족하다."
+        },
+        "d30": {
+          "primary_evidence_id": "tech_samsung_q2",
+          "supporting_evidence_ids": [
+            "tech_samsung_q2"
+          ],
+          "direction": "Bullish",
+          "mechanism": "삼성전자는 H2 2025에 AI 수요가 지속적으로 강할 것으로 예상하고 있으며, 이는 반도체 제품의 판매 증가로 이어질 것이다. 특히, 고성능 메모리 제품의 수요가 증가할 것으로 보인다.",
+          "counter_condition": "글로벌 경제 불확실성이 커지면 반도체 수요가 감소할 수 있다.",
+          "missing": "삼성전자의 반도체 제품별 매출 비중에 대한 구체적인 데이터가 부족하다."
+        }
+      }
+    }
+  ],
+  "raw_final": "{\"predictions\":{\"14\":{\"counter_condition\":\"매출 감소가 지속되면 추가 하락세가 이어질 수 있다.\",\"direction\":\"NON_UP\",\"hypothesis\":\"삼성전자의 2025년 2분기 매출이 전분기 대비 5.8% 감소한 점은 향후 실적에 부정적인 영향을 미칠 수 있다.\",\"limitations\":\"2025년 2분기 이후 삼성전자의 매출 및 이익에 대한 구체적인 전망이 부족하다.\",\"observation\":\"삼성전자의 2025년 2분기 매출이 74.6조 원으로 전분기 대비 5.8% 감소하였다.\",\"selected_hypotheses\":[],\"source_ids\":[\"samsung_q2\"]},\"30\":{\"counter_condition\":\"AI 수요 증가가 확인되면 반도체 부문 실적이 개선될 수 있다.\",\"direction\":\"NON_UP\",\"hypothesis\":\"삼성전자의 반도체 부문에서의 이익 감소는 AI 수요 증가에도 불구하고 재고 조정과 일회성 비용이 영향을 미쳤기 때문에, 이러한 부정적인 요소가 지속된다면 주가는 하락할 수 있다.\",\"limitations\":\"2025년 하반기 반도체 부문 실적에 대한 구체적인 수치가 확인되지 않았다.\",\"observation\":\"삼성전자의 반도체 부문 이익이 감소한 점은 향후 주가에 부정적인 영향을 미칠 수 있다.\",\"selected_hypotheses\":[],\"source_ids\":[\"samsung_q2\"]},\"7\":{\"counter_condition\":\"반도체 부문에서의 수익성이 개선되면 주가가 반등할 수 있다.\",\"direction\":\"NON_UP\",\"hypothesis\":\"삼성전자의 2025년 2분기 반도체 부문 이익이 감소한 점은 향후 주가에 부정적인 영향을 미칠 수 있다.\",\"limitations\":\"2025년 2분기 이후 반도체 부문 실적에 대한 구체적인 전망이 부족하다.\",\"observation\":\"삼성전자의 반도체 부문 이익이 감소한 점은 향후 주가에 부정적인 영향을 미칠 수 있다.\",\"selected_hypotheses\":[],\"source_ids\":[\"samsung_q2\"]}}}"
+}

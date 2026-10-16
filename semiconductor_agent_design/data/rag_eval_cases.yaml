@@ -1,0 +1,91 @@
+cases:
+  - id: hbm_hybrid_bonding
+    difficulty: easy
+    query: HBM4 hybrid bonding Cu-Cu bonding SK hynix Samsung Hanmi
+    company: "000660"
+    domain: packaging
+    must_have_terms: ["hbm", "bonding"]
+
+  - id: euv_high_na
+    difficulty: easy
+    query: High-NA EUV lithography ASML Samsung foundry
+    company: "ASML"
+    domain: litho
+    must_have_terms: ["euv", "high-na"]
+
+  - id: ai_hbm_demand
+    difficulty: medium
+    query: NVIDIA AI data center demand HBM memory SK hynix
+    company: "NVDA"
+    domain: hbm
+    must_have_terms: ["ai", "hbm"]
+
+  - id: tsmc_cowos_capacity
+    difficulty: medium
+    query: TSMC CoWoS advanced packaging AI accelerator capacity
+    company: "TSM"
+    domain: packaging
+    must_have_terms: ["cowos", "packaging"]
+
+  - id: cxl_pim_memory
+    difficulty: medium
+    query: CXL PIM processing-in-memory bandwidth latency memory expansion
+    company: "INTC"
+    domain: memory
+    must_have_terms: ["cxl", "pim", "memory"]
+
+  - id: power_semiconductor_sic_gan
+    difficulty: hard
+    query: SiC GaN power semiconductor device inverter converter reliability
+    company: "AMAT"
+    domain: power
+    must_have_terms: ["sic", "gan", "power"]
+
+  - id: yield_metrology_failure_analysis
+    difficulty: hard
+    query: semiconductor yield metrology inspection failure analysis electromigration
+    company: "KLAC"
+    domain: reliability
+    must_have_terms: ["yield", "metrology", "inspection"]
+
+  - id: standards_jedec_irds
+    difficulty: hard
+    query: JEDEC IRDS semiconductor roadmap standard memory packaging lithography
+    company: ""
+    domain: standards
+    must_have_terms: ["jedec", "irds", "standard"]
+
+  - id: mram_reram_memory
+    difficulty: hard
+    query: MRAM ReRAM next-generation memory on-device AI embedded systems
+    company: "005930"
+    domain: memory
+    must_have_terms: ["mram", "reram", "memory"]
+
+  - id: cis_pmic_rfic
+    difficulty: medium
+    query: CIS PMIC RFIC specialty devices mobile automotive connectivity
+    company: "005930"
+    domain: specialty_devices
+    must_have_terms: ["cis", "pmic", "rfic"]
+
+  - id: ald_ale_process
+    difficulty: hard
+    query: ALD ALE metrology process control advanced node shrink
+    company: "ASML"
+    domain: process
+    must_have_terms: ["ald", "ale", "metrology"]
+
+  - id: bpdn_gaa_logic
+    difficulty: hard
+    query: backside power delivery GAA advanced logic node economics
+    company: "005930"
+    domain: logic
+    must_have_terms: ["backside", "gaa", "logic"]
+
+  - id: tem_fib_failure_analysis
+    difficulty: hard
+    query: TEM FIB failure analysis yield reliability engineering
+    company: "KLAC"
+    domain: inspection_failure_analysis
+    must_have_terms: ["tem", "fib", "failure"]

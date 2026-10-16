@@ -1,0 +1,193 @@
+version: 1
+owner: semiconductor_tech_agent
+updated_at: 2026-04-03
+
+# Query strategy:
+# - Use OR within synonyms/related terms
+# - Use AND across concept groups
+# - Keep broad enough for recall, then re-rank locally
+
+queries:
+  - id: dram_yield
+    enabled: true
+    source: arxiv
+    category: memory_dram
+    query: >-
+      (all:DRAM OR all:"dynamic random access memory")
+      AND
+      (all:yield OR all:"defect density" OR all:"process variation" OR all:"parametric yield")
+      AND
+      (all:semiconductor OR all:"memory fabrication")
+    max_results: 200
+
+  - id: hbm_tsv_packaging
+    enabled: true
+    source: arxiv
+    category: hbm_packaging
+    query: >-
+      (all:HBM OR all:"high bandwidth memory")
+      AND
+      (all:TSV OR all:"through-silicon via" OR all:"3D stacking")
+      AND
+      (all:packaging OR all:interconnect OR all:bonding)
+    max_results: 200
+
+  - id: nand_3d_vertical
+    enabled: true
+    source: arxiv
+    category: memory_nand
+    query: >-
+      (all:NAND OR all:"3D NAND" OR all:"vertical memory")
+      AND
+      (all:flash OR all:reliability OR all:endurance OR all:"retention")
+      AND
+      (all:semiconductor OR all:fabrication)
+    max_results: 200
+
+  - id: euv_lithography
+    enabled: true
+    source: arxiv
+    category: lithography
+    query: >-
+      (all:EUV OR all:"extreme ultraviolet")
+      AND
+      (all:lithography OR all:patterning OR all:overlay OR all:stochastic)
+      AND
+      (all:semiconductor OR all:manufacturing)
+    max_results: 200
+
+  - id: tc_thermo_compression_bonding
+    enabled: true
+    source: arxiv
+    category: advanced_packaging
+    query: >-
+      (all:"TC bonding" OR all:"thermo-compression bonding" OR all:"hybrid bonding")
+      AND
+      (all:packaging OR all:interconnect OR all:microbump)
+      AND
+      (all:HBM OR all:"advanced package")
+    max_results: 200
+
+  - id: defect_density_yield_model
+    enabled: true
+    source: arxiv
+    category: yield_modeling
+    query: >-
+      (all:semiconductor)
+      AND
+      (all:"defect density" OR all:yield OR all:"yield model" OR all:poisson)
+      AND
+      (all:model OR all:prediction OR all:estimation)
+    max_results: 200
+
+  - id: finfet_gaa_nanosheet
+    enabled: true
+    source: arxiv
+    category: transistor_architecture
+    query: >-
+      (all:FinFET OR all:GAA OR all:nanosheet)
+      AND
+      (all:transistor OR all:"process integration" OR all:"device architecture")
+      AND
+      (all:semiconductor OR all:CMOS)
+    max_results: 200
+
+  - id: cxl_pim_memory_systems
+    enabled: true
+    source: arxiv
+    category: memory_systems
+    query: >-
+      (all:CXL OR all:"compute express link" OR all:PIM OR all:"processing in memory")
+      AND
+      (all:memory OR all:"memory expansion" OR all:bandwidth OR all:latency)
+      AND
+      (all:architecture OR all:system OR all:device)
+    max_results: 150
+
+  - id: power_semiconductors_sic_gan
+    enabled: true
+    source: arxiv
+    category: power_semiconductors
+    query: >-
+      (all:SiC OR all:"silicon carbide" OR all:GaN OR all:"gallium nitride")
+      AND
+      (all:power OR all:device OR all:converter OR all:inverter)
+      AND
+      (all:semiconductor OR all:electronics)
+    max_results: 150
+
+  - id: materials_reliability_failure_analysis
+    enabled: true
+    source: arxiv
+    category: materials_reliability
+    query: >-
+      (all:semiconductor OR all:wafer OR all:thin-film)
+      AND
+      (all:reliability OR all:"failure analysis" OR all:electromigration OR all:defect OR all:metrology)
+      AND
+      (all:materials OR all:device OR all:manufacturing)
+    max_results: 150
+
+  - id: eda_chiplet_ucie
+    enabled: true
+    source: arxiv
+    category: design_infrastructure
+    query: >-
+      (all:EDA OR all:chiplet OR all:UCIe OR all:"die-to-die")
+      AND
+      (all:architecture OR all:integration OR all:interconnect OR all:packaging)
+      AND
+      (all:semiconductor OR all:system)
+    max_results: 150
+
+  - id: advanced_packaging_substrate
+    enabled: true
+    source: arxiv
+    category: advanced_packaging
+    query: >-
+      (all:packaging OR all:interposer OR all:substrate OR all:"glass substrate" OR all:"hybrid bonding")
+      AND
+      (all:2.5D OR all:3D OR all:assembly OR all:bonding OR all:integration)
+      AND
+      (all:semiconductor OR all:chiplet)
+    max_results: 150
+
+  - id: sensors_analog_interface
+    enabled: true
+    source: arxiv
+    category: specialty_devices
+    query: >-
+      (all:CIS OR all:RFIC OR all:PMIC OR all:FPGA OR all:"image sensor")
+      AND
+      (all:semiconductor OR all:device OR all:circuit)
+      AND
+      (all:architecture OR all:technology OR all:integration)
+    max_results: 150
+
+  - id: standards_roadmaps
+    enabled: true
+    source: arxiv
+    category: standards
+    query: >-
+      (all:JEDEC OR all:IRDS OR all:SEMI OR all:standard OR all:roadmap)
+      AND
+      (all:memory OR all:packaging OR all:lithography OR all:device)
+      AND
+      (all:semiconductor OR all:industry)
+    max_results: 100
+
+post_filters:
+  year_min: 2016
+  language: ["en", "ko"]
+  dedup_keys: ["doi", "title"]
+
+scoring:
+  bm25_weight: 0.35
+  vector_weight: 0.45
+  recency_weight: 0.10
+  source_weight: 0.10
+
+notes:
+  - Avoid hard all-word matching from plain sentence queries.
+  - Keep retrieval broad; enforce relevance in re-ranker and grounding stage.
+  - Balance memory, logic, packaging, materials, power, devices, standards, and manufacturing topics.

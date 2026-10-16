@@ -1,0 +1,24 @@
+# Install only when configuring real collection and database-backed analysis.
+-r requirements.txt
+langgraph>=0.2,<2
+langchain-openai>=0.3,<2
+langchain-text-splitters>=0.3,<2
+chromadb>=0.5,<2
+psycopg2-binary>=2.9,<3
+psycopg[binary]>=3.1,<4
+qdrant-client>=1.9,<2
+neo4j>=5,<6
+tenacity>=8.3,<10
+PyMuPDF>=1.24
+pypdf>=4
+yfinance>=0.2.40
+finance-datareader>=0.9
+pykrx>=1
+html5lib>=1
+
+# Optional providers/features, excluded from the basic install:
+# FlagEmbedding + torch + transformers: BGE dense/sparse embeddings
+# transformers + spacy: FinBERT/NER analysis
+# trafilatura + firecrawl-py: additional article extraction
+# anthropic: AGENT_LLM_PROVIDER=anthropic
+# Pillow + pytesseract: OCR fallback (also needs the Tesseract binary)

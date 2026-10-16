@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-16",
+  "source_files_copied": 115,
+  "source_bytes_copied": 1375823,
+  "expected_initial_tracked_files": 133,
+  "bytes_before_this_summary": 1507140,
+  "python_files_parsed": 104,
+  "syntax_errors": 0,
+  "core_tests_passed": 64,
+  "core_test_failures": 0,
+  "smoke_conditions": 10,
+  "smoke_callbacks": 20,
+  "smoke_failures": 0,
+  "actual_model_calls": 0,
+  "new_cost_usd": 0,
+  "real_db_queries": 0,
+  "new_data_collection": 0,
+  "fresh_dependency_install_tested": false,
+  "role_constants_equal": true,
+  "fixture_payloads_equal": true,
+  "credential_pattern_hits": [],
+  "reviewed_public_url_false_positives": [
+    {
+      "file": "tests/fixtures/paired.json",
+      "field": "/packet/evidence/3/source_ref",
+      "reason": "Public SK Hynix article URL path"
+    },
+    {
+      "file": "tests/fixtures/paired.json",
+      "field": "/packet/evidence/4/source_ref",
+      "reason": "Public SK Hynix article URL path"
+    },
+    {
+      "file": "tests/fixtures/financial.json",
+      "field": "/packet/evidence/3/source_ref",
+      "reason": "Public SK Hynix article URL path"
+    },
+    {
+      "file": "tests/fixtures/financial.json",
+      "field": "/packet/evidence/4/source_ref",
+      "reason": "Public SK Hynix article URL path"
+    }
+  ],
+  "ignored_probe_paths": [
+    ".env",
+    "OpenAI_key.txt",
+    "test-credentials.env",
+    "news_data.db",
+    "benchmarks/runs/fake.json",
+    "market_agent/market_agent_data/fake.csv",
+    "semiconductor_agent_design/data/qdrant_local/fake.db",
+    "outputs/comparison_smoke/results.json",
+    "tmp/migration_tests_v1.log"
+  ],
+  "text_line_endings": "LF",
+  "scope": "Existing Python3.12 environment, new standalone workspace; mocks replace external services",
+  "test_log_sha256": "d51d3573fb8b54f0183c207698d2eac644a4215edf89b5a7ff01e8b02569f710",
+  "original_project_preserved": true,
+  "existing_git_configuration_preserved": true,
+  "remote_push_performed": false
+}

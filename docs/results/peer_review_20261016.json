@@ -1,0 +1,78 @@
+{
+  "summary": {
+    "calls": 13,
+    "success": 13,
+    "actual_new_cost_usd": 0.02329845,
+    "cost_without_cache_usd": 0.02739765,
+    "unknown_new_reservations": 0,
+    "cumulative_accounted_usd": 0.48615315000000003,
+    "remaining_usd": 0.013846849999999966,
+    "day_attempts": 168,
+    "day_http_success": 167,
+    "day_http_errors": 1,
+    "day_confirmed_cost_usd": 0.42129165,
+    "day_unknown_reserved_usd": 0.0648615,
+    "day_cost_without_cache_usd": 0.49762125,
+    "model_returned_snapshot_checks": 13,
+    "retained_source_quote_checks": 12,
+    "unique_exact_field_bindings": 9,
+    "changed_reviewed_rows": 6,
+    "changed_directions": 3,
+    "completed_rounds": 1,
+    "attempted_case_denominator": 2,
+    "new_wall_seconds": 87.94377019999956,
+    "human_reviews": 0,
+    "predictive_accuracy_scored": false,
+    "labels_read": false
+  },
+  "metrics": {
+    "independent": {
+      "final_guard_error_rows": 3,
+      "final_row_denominator": 6,
+      "reviewed_guard_error_rows": 5,
+      "reviewed_row_denominator": 12,
+      "final_accepted_direction_rows": 3,
+      "raw_abstention_rows": 0,
+      "explicit_selected_hypotheses": 0,
+      "logical_pipeline_cost_usd": 0.01448085
+    },
+    "peer_review": {
+      "final_guard_error_rows": 3,
+      "final_row_denominator": 6,
+      "reviewed_guard_error_rows": 7,
+      "reviewed_row_denominator": 12,
+      "final_accepted_direction_rows": 3,
+      "raw_abstention_rows": 0,
+      "explicit_selected_hypotheses": 0,
+      "logical_pipeline_cost_usd": 0.022571099999999997
+    }
+  },
+  "ai_counterlogic": {
+    "before": 2,
+    "after": 4,
+    "denominator": 12,
+    "corrected": 1,
+    "new_errors": 3,
+    "persistent": 1
+  },
+  "ai_final_clear_error_rows": {
+    "before": 4,
+    "after": 4,
+    "denominator": 6
+  },
+  "provenance": [
+    {
+      "path": "benchmarks/runs/peer_review_20261016_audit_v1/verification.json",
+      "sha256": "a9c6ab86dcf804f91f9afafa0658eca227490e56129e371550c4d3ed18f34a63"
+    },
+    {
+      "path": "benchmarks/runs/peer_review_20261016_audit_v1/comparison.json",
+      "sha256": "a39bf351e3dc4d23001087f9c78610a6f4b36aaa2f5b7b82f55a9558c07f792a"
+    },
+    {
+      "path": "benchmarks/runs/peer_review_20261016_audit_v1/ai_review.json",
+      "sha256": "eea963c4a04094c6eda7980c7e1dfb98ae91fbb3823a612dc0495d7064ef06a8"
+    }
+  ],
+  "note": "Preserved result summary, not a new experiment. Full requests and journals stay in the source archive."
+}

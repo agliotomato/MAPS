@@ -1,0 +1,52 @@
+# Credentials and machine-specific settings
+.env
+.env.*
+!.env.example
+*.env
+*credentials*
+OpenAI_key.txt
+*.pem
+*.key
+
+# Python and local tooling
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Runtime databases, vectors, models, collected data and generated reports
+*.db
+*.db-*
+*.sqlite*
+*.log
+data/
+!semiconductor_agent_design/data/
+semiconductor_agent_design/data/*
+!semiconductor_agent_design/data/*.yaml
+!semiconductor_agent_design/data/kosis_series.json
+market_agent_data/
+news_agent_data/
+qdrant_local/
+chroma_db/
+models_cache/
+.cache/
+benchmarks/runs/
+reports/report_*.md
+reports/report_*.json
+outputs/
+tmp/
+AGENTS.md
+# Curated docs/results, tests/fixtures and daily reports ARE versioned.
+!AGENTS.md

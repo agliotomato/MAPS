@@ -1,0 +1,62 @@
+[
+  {
+    "metric_name": "semiconductor_production_index",
+    "searchNm": "전자부품 컴퓨터 생산동향",
+    "tblNm": "전자부품·컴퓨터 생산동향",
+    "prdSe": "M",
+    "itmId": "ALL",
+    "objL1": "ALL",
+    "unit": "index",
+    "domain": "macro_industry"
+  },
+  {
+    "metric_name": "semiconductor_equipment_investment_index",
+    "searchNm": "설비투자지수 전자",
+    "tblNm": "설비투자지수 (전자)",
+    "prdSe": "M",
+    "itmId": "ALL",
+    "objL1": "ALL",
+    "unit": "index",
+    "domain": "macro_industry"
+  },
+  {
+    "metric_name": "electronics_bsi",
+    "searchNm": "기업경기실사지수 전자",
+    "tblNm": "기업경기실사지수 (전자)",
+    "prdSe": "M",
+    "itmId": "ALL",
+    "objL1": "ALL",
+    "unit": "index",
+    "domain": "macro_industry"
+  },
+  {
+    "metric_name": "semiconductor_industry_production_index",
+    "searchNm": "산업생산지수 반도체",
+    "tblNm": "산업생산지수 (반도체)",
+    "prdSe": "M",
+    "itmId": "ALL",
+    "objL1": "ALL",
+    "unit": "index",
+    "domain": "macro_industry"
+  },
+  {
+    "metric_name": "electronics_employment",
+    "searchNm": "취업자수 전자부품",
+    "tblNm": "취업자수 (전자부품)",
+    "prdSe": "M",
+    "itmId": "ALL",
+    "objL1": "ALL",
+    "unit": "persons",
+    "domain": "macro_industry"
+  },
+  {
+    "metric_name": "mining_manufacturing_semiconductor",
+    "searchNm": "광업 제조업조사 반도체",
+    "tblNm": "광업·제조업조사 (반도체)",
+    "prdSe": "Y",
+    "itmId": "ALL",
+    "objL1": "ALL",
+    "unit": "value",
+    "domain": "macro_industry"
+  }
+]

@@ -1,0 +1,438 @@
+evidence_priority:
+  - official_ir
+  - official_press_release
+  - standard
+  - earnings
+  - paper
+  - blog
+  - news
+
+company_watchlist:
+  005930: 삼성전자
+  000660: SK하이닉스
+  042700: 한미반도체
+  NVDA: NVIDIA
+  TSM: TSMC
+  ASML: ASML
+  AMAT: Applied Materials
+  LRCX: Lam Research
+  MU: Micron
+  INTC: Intel
+
+topic_clusters:
+  hbm:
+    - hbm
+    - hbm3
+    - hbm3e
+    - hbm4
+    - hbm2e
+    - 고대역폭 메모리
+    - 고대역 메모리
+    - memory stacking
+    - thermal management
+    - socamm
+    - ai memory
+    - high bandwidth memory
+  litho:
+    - euv
+    - 극자외선
+    - high-na
+    - lithography
+    - 노광
+    - photoresist
+    - 감광액
+    - scanner
+    - duv
+    - mask
+    - reticle
+    - pdk
+    - patterning
+    - resist
+  packaging:
+    - cowos
+    - 코우오에스
+    - 2.5d
+    - 3d
+    - chiplet
+    - 칩렛
+    - interposer
+    - 인터포저
+    - hybrid bonding
+    - 하이브리드 본딩
+    - tsv
+    - substrate
+    - advanced packaging
+    - 첨단 패키징
+    - ucie
+    - fan-out
+    - tc bonding
+  logic:
+    - gaa
+    - 게이트 올 어라운드
+    - nanosheet
+    - finfet
+    - 핀펫
+    - foundry
+    - backside power
+    - bpdn
+    - cmos
+    - node
+    - ppa
+  nand:
+    - nand
+    - 3d nand
+    - v-nand
+    - flash
+    - qlc
+    - tlc
+    - mlc
+    - 낸드
+  dram:
+    - dram
+    - 디램
+    - ddr5
+    - lpddr5
+    - lpddr6
+    - rdimm
+    - udimm
+  equipment:
+    - etch
+    - deposition
+    - metrology
+    - inspection
+    - scanner
+    - 노광장비
+    - stepper
+    - mask aligner
+    - euv scanner
+    - high-na euv
+    - 펠리클
+  memory_market:
+    - spot price
+    - contract price
+    - inventory
+    - bit growth
+    - supply tightness
+    - cycle
+    - 현물가
+    - 고정거래가
+  macro:
+    - capex
+    - backlog
+    - export
+    - import
+    - production index
+    - shipment
+    - inventory cycle
+    - 생산지수
+    - 출하
+    - 재고
+  process:
+    - wafer fab
+    - yield
+    - defect density
+    - dppm
+    - cycle time
+    - utilization
+    - wafers start
+    - wafers starts
+    - process node
+    - ppa
+    - 웨이퍼 스타트
+  materials:
+    - silicon
+    - silicon wafer
+    - photoresist
+    - etch gas
+    - precursors
+    - cdm
+    - cmp slurry
+    - substrate
+    - interposer
+    - package substrate
+    - 기판
+  power_semiconductors:
+    - sic
+    - gan
+    - power semiconductor
+    - power device
+    - mosfet
+    - igbt
+    - 전력 반도체
+  osat:
+    - osat
+    - assembly
+    - test
+    - probe
+    - sort
+    - packaging house
+    - advanced packaging
+    - fan-out
+    - fan in
+    - 패키징
+    - 테스트
+  design:
+    - fabless
+    - ip
+    - pdk
+    - eda
+    - dfx
+    - cxl
+    - ucie
+    - chiplet
+    - die-to-die
+    - 팹리스
+    - 설계자산
+  memory_devices:
+    - sram
+    - dram
+    - ddr4
+    - ddr5
+    - ddr6
+    - lpddr5
+    - lpddr6
+    - gddr7
+    - hbm
+    - hbm2e
+    - hbm3
+    - hbm3e
+    - hbm4
+    - qlc
+    - tlc
+    - mlc
+    - 3d nand
+    - 메모리
+  advanced_memory:
+    - pim
+    - processing in memory
+    - 프로세싱 인 메모리
+    - cxl
+    - compute express link
+    - cxl memory
+    - v-nand
+    - vertical nand
+    - 버티컬 낸드
+    - llw dram
+    - low latency wide io
+    - mram
+    - reram
+    - mrams
+    - embedded memory
+  device_structure:
+    - finfet
+    - 핀펫
+    - gaa
+    - gate all around
+    - 게이트 올 어라운드
+    - nanosheet
+    - bpdn
+    - backside power
+    - backside power delivery
+    - 배선 후면 공급
+    - eot
+    - gi
+    - gidl
+    - cmos
+    - tmd
+    - graphene
+    - em
+    - electromigration
+  lithography_process:
+    - high-na euv
+    - 하이-na euv
+    - euv
+    - duv
+    - pr
+    - photoresist
+    - 감광액
+    - pellicle
+    - 펠리클
+    - ald
+    - ale
+    - cmp
+    - ashing
+    - opc
+    - 광학 근접 보정
+    - twinscan
+    - scanner
+    - stepper
+  advanced_packaging_tech:
+    - tsv
+    - 실리콘 관통 전극
+    - wlcsp
+    - fowlp
+    - fan-out wafer level packaging
+    - 팬아웃 웨이퍼 레벨 패키징
+    - interposer
+    - 인터포저
+    - silicon bridge
+    - 실리콘 브릿지
+    - organic interposer
+    - hybrid bonding
+    - 하이브리드 본딩
+    - cu-cu bonding
+    - 2.5d
+    - 3d ic
+    - chiplet
+    - 칩렛
+    - ucie
+    - 유시아이이
+    - tc bonding
+    - glass substrate
+    - 유리 기판
+    - substrate
+  business_model:
+    - fabless
+    - 팹리스
+    - foundry
+    - 파운드리
+    - design house
+    - 디자인하우스
+    - osat
+    - 오사트
+    - idm
+    - 종합 반도체
+    - semiconductor ecosystem
+  yield_productivity:
+    - yield
+    - 수율
+    - net die
+    - throughput
+    - 스루풋
+    - ramp-up
+    - yield ramp-up
+    - utilization
+    - defect density
+    - dppm
+    - cycle time
+    - wafers start
+    - wafer start
+  specialty_devices:
+    - cis
+    - 이미지 센서
+    - cmos image sensor
+    - rfic
+    - pmic
+    - fpga
+    - noc
+    - sram cache
+    - edram
+    - eflash
+  inspection_failure_analysis:
+    - metrology
+    - inspection
+    - mi
+    - tem
+    - fib
+    - failure analysis
+    - electromigration
+    - reliability
+    - ppa
+    - 계측
+    - 검사
+    - 불량 분석
+  materials_foundation:
+    - silicon wafer
+    - 웨이퍼
+    - photoresist
+    - glass substrate
+    - cmp slurry
+    - etch gas
+    - precursors
+    - substrate
+    - interposer
+    - package substrate
+    - sic
+    - gan
+    - power semiconductor
+  infrastructure:
+    - eda
+    - 전자설계자동화
+    - mpw
+    - pdk
+    - dfx
+    - die-to-die
+    - cxl
+    - ucie
+    - chiplet
+
+good_answer_criteria:
+  longevity:
+    - 1y / 3y / 5y / 10y 모두 구분해 답한다.
+    - 수요가 구조적인지 일시적인지 분리해서 설명한다.
+    - 대체 기술과 전환 시점을 함께 언급한다.
+  bottleneck:
+    - 병목인지 아닌지를 먼저 선언한다.
+    - 대체 가능성과 공급 제약을 따로 본다.
+    - 병목이면 산업 전체 영향까지 연결한다.
+  company_impact:
+    - 수혜 / 위협 / 중립을 분리한다.
+    - 삼성, SK하이닉스, TSMC, ASML 같은 핵심 기업을 우선 본다.
+    - 회사별 구조적 이유를 제시한다.
+  evidence_quality:
+    - 공식자료, 논문, 표준, 실적자료를 우선한다.
+    - 단순 뉴스는 보조 근거로만 쓴다.
+    - 근거가 약하면 모른다고 말하고 추가로 필요한 데이터를 제시한다.
+
+questions:
+  - category: market
+    title: 이번 분기 DRAM/NAND 고정거래가 전분기 대비 얼마나 변했나?
+    good_answer: 고정가 숫자와 전분기 대비 % 변화를 함께 제시한다.
+  - category: demand
+    title: HBM 수요는 어떤 AI 가속기 출하량에 직결되며, 현재 공급 타이트 구간인가?
+    good_answer: HBM 다이 수 × GPU 출하대수로 수요량을 추정하고 공급사 캐파와 비교한다.
+  - category: inventory
+    title: PC·스마트폰 재고조정이 끝났다는 신호를 어떤 데이터에서 먼저 보는가?
+    good_answer: 채널 재고 주수가 정상 범위로 복귀했는지 말한다.
+  - category: capex
+    title: AMAT·Lam Research 장비 수주잔고(Backlog)가 반도체 Capex의 몇 분기 선행지표인가?
+    good_answer: backlog ÷ 매출로 선행 분기를 숫자로 근거 제시한다.
+  - category: packaging
+    title: CoWoS 패키징 캐파 병목이 해소되는 시점과 현재 대기 리드타임은?
+    good_answer: 리드타임과 신규 캐파 증설 완료 예상 분기를 함께 말한다.
+  - category: logic
+    title: GAA와 FinFET의 차이가 실제 양산 원가와 전력 효율에 얼마나 영향을 주는가?
+    good_answer: PPA와 수율, 양산 노드 전환 비용을 함께 설명한다.
+  - category: equipment
+    title: EUV/DUV 장비 수급이 선단 공정의 병목인지, 대체 가능한지 어떻게 판단하는가?
+    good_answer: 장비 수요, 공급 제약, High-NA 도입 시점까지 함께 말한다.
+  - category: memory
+    title: DDR5, LPDDR5, HBM, NAND가 각기 다른 사이클을 타는 이유는 무엇인가?
+    good_answer: 수요처와 재고 사이클, 가격 메커니즘을 분리해서 설명한다.
+  - category: macro
+    title: 반도체 수출입, 생산지수, Capex 지표가 한 방향으로 꺾일 때 무엇을 먼저 봐야 하는가?
+    good_answer: 생산, 수출, 장비, 재고를 함께 묶어서 해석한다.
+
+event_examples:
+  - event: 미국, 추가 AI칩 대중 수출통제 발표
+    impact:
+      - NVIDIA: down
+      - AMD: down
+      - TSMC: down
+      - Samsung: neutral_to_down
+      - SK hynix: neutral_to_down
+  - event: TSMC 월간 매출 MoM +15% 서프라이즈
+    impact:
+      - TSMC: up
+      - ASML: up
+      - AMAT: up
+      - Lam Research: up
+      - Samsung: relative_weakness
+  - event: SK하이닉스, HBM4 양산 조기 선언
+    impact:
+      - SK hynix: up
+      - NVIDIA: up
+      - Micron: down
+      - CoWoS ecosystem: up
+  - event: EUV High-NA 장비 양산 출하 시작
+    impact:
+      - ASML: up
+      - TSMC: up
+      - Samsung: mixed
+      - AMAT: neutral_to_up
+  - event: DRAM 고정거래가 전분기 대비 10% 상승
+    impact:
+      - Samsung: up
+      - SK hynix: up
+      - Micron: up
+      - PC/OEM: down

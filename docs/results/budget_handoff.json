@@ -1,0 +1,11 @@
+{
+  "as_of": "2026-10-16",
+  "shared_cap_usd": 0.5,
+  "accounted_usd": 0.48615315,
+  "remaining_usd": 0.01384685,
+  "confirmed_day_cost_usd": 0.42129165,
+  "unknown_reserved_usd": 0.0648615,
+  "prior_run": "benchmarks/runs/peer_review_20261016_live_v2",
+  "source_archive": "C:\\Users\\skht0\\All_Agent",
+  "policy": "Read-only handoff. This summary does not authorize resetting or re-spending the shared budget. New paid runs must validate the original journals and hashes."
+}

@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "status": "comparison_conditions_defined_inputs_and_adapters_pending",
+  "created_on_kst": "2026-10-15",
+  "question": "Under the same available information, cutoff, model snapshot and target, do specialist analyses change forecasts and improve performance enough to justify their cost?",
+  "scope": "Separate calendar-day contribution study for the legacy engine and production-style agents; does not replace or relabel domestic protocol_v1 trading-session evaluation",
+  "execution_enabled": false,
+  "execution_disabled_reason": "Historical input provenance, held-out case freeze, common adapters and request-based cost estimate are incomplete; this is not an approval request",
+  "companies": ["005930", "000660", "042700"],
+  "time": {
+    "cutoff": "09:00:00 Asia/Seoul, equivalent to 00:00:00 UTC, on each selected Korean trading date",
+    "primary_horizon_calendar_days": 7,
+    "secondary_horizons_calendar_days": [14, 30],
+    "base": "Last validated Korean trading-session close strictly before the cutoff date",
+    "endpoint": "First validated Korean trading-session close on or after cutoff local date plus horizon calendar days; save nominal target and realized session separately",
+    "interpretation": "Close-to-close direction from prior close, not an executable return from 09:00",
+    "information_gate": "Require recorded availability strictly before cutoff, with verified source timezone, publication precision and historical version eligibility; same-day date-only items are not eligible",
+    "prices": "Trade date is an observation label, not an availability timestamp. Preserve actual row dates, source, adjustment convention, latest allowed close, missing sessions and corporate-action review",
+    "derived_outcomes": "Any event label or future-return-derived feature requires evidence that its entire underlying observation window and computation were available before cutoff; the new computed_at guard alone does not certify provenance",
+    "macro": "Observation period alone is insufficient; use release availability and contemporary vintage",
+    "same_day_news": "Before-cutoff news may be used if independently verified; news after 09:00 must be excluded"
+  },
+  "cases": {
+    "status": "not_frozen",
+    "candidate_source": "Existing domestic stock/date candidates may inform selection only; their trading-session labels are never reused as calendar-day labels",
+    "exposure_policy": "Legacy report examples and inspected outcomes are development diagnostics only. Record all previously inspected or tuned-on cases before selecting the held-out cohort",
+    "chronological_split": "Development and setting selection end before the first evaluation cutoff, including the longest forecast endpoint; keep the official market calendar and exposure ledger",
+    "replacement_policy": "Resolve exclusions before inference with versioned reasons; never replace failures after seeing predictions or gold labels",
+    "gold_separation": "Store target closes and labels outside generation packets; no future prices, reviewer findings or another condition's output in model inputs"
+  },
+  "common_information": {
+    "packet": "Immutable target, cutoff, historical price rows, code-computed price features, eligible news/disclosures, economic and technical evidence, source IDs and limitations",
+    "single_multi_identity": "Single LLM and every full-information panel receive the same union of source IDs and byte-identical evidence payloads and derived features; save full and per-role packet hashes",
+    "panel_partition": "Use the production mapping: news/search, economy, market, semiconductor/technology. Each initial analysis sees only its assigned partition and no peer answer; final integration sees the full common packet and saved analyses",
+    "generic_control": "Same four partitions, calls, per-stage token limits and final input as specialist panel, but generic analyst instructions replace specialist role rules",
+    "news_removal": "Remove all news-origin evidence and derived summaries from every role and final input, including duplicate copies referenced under another source ID; use origin lineage, not only a news label",
+    "role_removal": "Omit the news analyst call, retain its raw evidence in the common final packet. This measures the analyst stage plus its computation; do not call it a pure compute-matched role effect"
+  },
+  "conditions": [
+    {"id": "hold_price", "kind": "deterministic", "calls_per_case": 0, "rule": "Expected return zero; direction NON_UP. Report numerical return error separately"},
+    {"id": "always_up", "kind": "deterministic", "calls_per_case": 0, "rule": "Always UP; do not fabricate a numerical return magnitude"},
+    {"id": "momentum_20", "kind": "deterministic", "calls_per_case": 0, "rule": "UP if latest allowed close exceeds close 20 sessions earlier, otherwise NON_UP; insufficient history is a recorded failure"},
+    {"id": "engine_price_only", "kind": "deterministic_ablation", "calls_per_case": 0, "rule": "Freeze scenario_v2_outcome_cutoff price calculation and set technical/macro contributions to zero; label this an ablation, not the unchanged full engine"},
+    {"id": "engine_full", "kind": "deterministic", "calls_per_case": 0, "rule": "Frozen scenario_v2_outcome_cutoff calculation, bound to the same eligible packet; preserve event/technical/macro inputs and no runtime retrieval"},
+    {"id": "single_llm", "kind": "llm", "calls_per_case": 1, "input": "full common packet"},
+    {"id": "generic_panel", "kind": "llm", "calls_per_case": 5, "input": "four generic independent analyses of the same partitions used by specialist_panel, then common integration"},
+    {"id": "specialist_panel", "kind": "llm", "calls_per_case": 5, "input": "four specialist independent analyses, then common integration"},
+    {"id": "specialist_without_news_data", "kind": "llm_information_ablation", "calls_per_case": 5, "input": "same four roles and final instructions, with news-origin information removed everywhere"},
+    {"id": "specialist_without_news_role", "kind": "llm_role_ablation", "calls_per_case": 4, "input": "three remaining analyst calls and integration; full raw information retained"}
+  ],
+  "generation": {
+    "model_snapshot": "gpt-4o-mini-2024-07-18",
+    "temperature": 0,
+    "seed": 20260929,
+    "retries": 0,
+    "common_final_schema": "For each horizon: UP, NON_UP or explicit abstention; source IDs, observation, hypothesis, countercondition and limitations",
+    "initial_token_limit": 2200,
+    "final_token_limit": 10000,
+    "comparison_boundary": "A controlled adapter using production role and integration logic; equivalence to main.py must be tested before claiming production-system performance",
+    "current_missing_adapters": ["common fixed packet for legacy engine", "single/generic/three-role integration using the same final schema", "all-condition lineage-preserving news exclusion"],
+    "calls_per_complete_case": 20,
+    "example_60_case_call_count_not_authorization": 1200,
+    "monetary_budget": null,
+    "cost_estimation_gate": "Compute the exact request estimate and bounded execution limit after eligible inputs and adapters are prepared; no live request from this protocol file alone"
+  },
+  "evaluation": {
+    "primary": "7-calendar-day UP/NON_UP generalized MCC over all fixed case IDs; expected or realized zero is NON_UP, never an automatic correct answer",
+    "supporting": ["accuracy with all frozen IDs in denominator", "coverage", "abstention and API/parser failures", "per-company results", "confusion matrix"],
+    "invalid": "Keep failures and abstentions as INVALID; do not drop them or map them to the observed gold class",
+    "numerical_metrics": "Return MAE only for conditions with defined numerical forecasts (hold and engine variants); mark not applicable for direction-only conditions instead of inventing magnitudes",
+    "paired_deltas": ["specialist_panel-single_llm", "specialist_panel-generic_panel", "specialist_panel-specialist_without_news_data", "specialist_panel-specialist_without_news_role", "engine_full-engine_price_only"],
+    "uncertainty": "Prespecify paired date-block intervals after the cohort is fixed; keep companies and conditions together; no superiority claim from a few representative examples",
+    "attribution_log": "Per case: each role's hypothesis and cited IDs, final direction and selected basis, changes versus single and each ablation, correctness transitions after unblinding gold",
+    "cost_time": "Record input/output/cached tokens, call count, failed-call reserve and estimated cost; separate API duration sum from measured end-to-end wall time including integration; record concurrency and execution order",
+    "claim_rule": "Positive, null and negative results are valid. News absence is not an established error cause without the paired information ablation; a rationale or retained hypothesis is not evidence of accuracy improvement"
+  },
+  "gates_before_execution": [
+    "Exact representative-report and engine versions preserved",
+    "No automatic correctness for zero-return forecasts in any scorer",
+    "Price, document, event-outcome and macro availability verified for every included input",
+    "Original historical source/version uncertainty is resolved or explicitly excluded from eligible evaluation",
+    "Temporal split and inspected-outcome exposure ledger frozen",
+    "Common packets, price adjustment policy, labels and case set frozen separately",
+    "Shared schema, input identity, role isolation and both ablations tested",
+    "Exact requests, code hashes, metrics, uncertainty policy and execution limits frozen"
+  ]
+}

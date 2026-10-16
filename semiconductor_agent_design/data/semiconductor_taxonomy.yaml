@@ -1,0 +1,574 @@
+version: 1
+updated_at: 2026-05-29
+
+collection:
+  strategy:
+    - "수집은 최대한 넓게, 분류와 평가는 나중에 좁게 한다."
+    - "키워드는 HBM/EUV/NAND/CoWoS 중심에서 벗어나 메모리, 로직, 공정, 패키징, 소재, 전력, 설계, 계측, 신뢰성, 표준까지 포괄한다."
+    - "특정 용어에만 매몰되지 않도록 한국어와 영어 동의어를 함께 관리한다."
+  root_keywords:
+    - semiconductor
+    - chip
+    - integrated circuit
+    - cmos
+    - wafer
+    - foundry
+    - fab
+    - memory
+    - device
+    - packaging
+    - materials
+    - reliability
+    - metrology
+    - inspection
+    - standard
+    - power
+    - sensor
+  domain_keywords:
+    hbm:
+      - hbm
+      - high bandwidth memory
+      - 고대역폭 메모리
+      - memory stacking
+      - tsv
+      - through-silicon via
+      - wide io
+    packaging:
+      - advanced packaging
+      - cowos
+      - chiplet
+      - hybrid bonding
+      - thermo-compression
+      - interposer
+      - glass substrate
+      - fan-out
+      - 2.5d
+      - 3d integration
+      - tc bonding
+    litho:
+      - euv
+      - high-na
+      - lithography
+      - 노광
+      - photoresist
+      - pellicle
+      - scanner
+      - duv
+    memory:
+      - dram
+      - nand
+      - ddr5
+      - lpddr5
+      - lpddr6
+      - gddr7
+      - cxl
+      - pim
+      - mram
+      - reram
+      - v-nand
+    logic:
+      - finfet
+      - gaa
+      - nanosheet
+      - backside power
+      - bpdn
+      - cmos
+      - ppa
+      - node
+    process:
+      - etch
+      - deposition
+      - ald
+      - ale
+      - cmp
+      - patterning
+      - opc
+      - mask
+      - reticle
+      - yield
+      - defect density
+    materials:
+      - photoresist
+      - substrate
+      - cmp slurry
+      - precursor
+      - etch gas
+      - silicon wafer
+      - silicon
+      - glass substrate
+    power:
+      - sic
+      - gan
+      - power semiconductor
+      - mosfet
+      - igbt
+      - power device
+    design:
+      - fabless
+      - foundry
+      - design house
+      - eda
+      - pdk
+      - mpw
+      - ucie
+      - cxl
+      - die-to-die
+      - chiplet
+    reliability:
+      - yield
+      - reliability
+      - electromigration
+      - failure analysis
+      - tem
+      - fib
+      - metrology
+      - inspection
+    standards:
+      - jedec
+      - irds
+      - semi
+      - ucie
+      - cxl
+      - roadmap
+    business:
+      - fabless
+      - foundry
+      - idm
+      - osat
+      - design house
+      - ecosystem
+  exclude_keywords:
+    - openfoam
+    - cfd
+    - aerodynamics
+    - meteorology
+    - protein
+    - biomedical
+    - air-quality sensors
+    - long-context language models
+    - large language model
+    - llm inference
+    - kv cache
+    - flashattention
+    - quantum teleportation
+    - forever chemicals
+    - battery
+  company_keywords:
+    - samsung
+    - sk hynix
+    - hynix
+    - tsmc
+    - micron
+    - intel
+    - amd
+    - nvidia
+    - lam research
+    - applied materials
+    - kla
+    - asml
+    - jedec
+    - irds
+    - semi
+    - wsts
+  venue_weights:
+    iedm: 1.0
+    isscc: 1.0
+    vlsi symposium: 0.95
+    irps: 0.9
+    iitc: 0.85
+    ectc: 0.85
+    dac: 0.8
+    iccad: 0.8
+    hot chips: 0.8
+    spie advanced lithography: 0.85
+  news_keywords:
+    - semiconductor
+    - chip
+    - hbm
+    - dram
+    - nand
+    - euv
+    - lithography
+    - foundry
+    - packaging
+    - tsv
+    - thermo-compression
+    - bonding
+    - yield
+    - cmos
+    - finfet
+    - gaa
+    - nanosheet
+    - cowos
+    - cxl
+    - pim
+    - ucie
+    - chiplet
+    - interposer
+    - hybrid bonding
+    - high-na
+    - backside power
+    - bpdn
+    - glass substrate
+    - sic
+    - gan
+    - power semiconductor
+    - rfic
+    - pmic
+    - cis
+    - eda
+    - mpw
+    - metrology
+    - inspection
+    - reliability
+    - electromigration
+    - tem
+    - fib
+    - jedec
+    - irds
+    - semi
+    - wsts
+    - capex
+    - backlog
+    - roadmap
+    - standard
+
+analysis:
+  evidence_priority:
+    - official_ir
+    - official_press_release
+    - standard
+    - earnings
+    - paper
+    - blog
+    - news
+  axis_spec:
+    longevity:
+      goal: "기술의 1y/3y/5y/10y 유효성 판단"
+      high_signals:
+        - "공식 IR/로드맵/표준문서에서 반복적으로 언급"
+        - "수요가 여러 제품군/여러 세대에 걸쳐 지속"
+        - "공정/패키징/표준 변경으로 대체가 어려움"
+      low_signals:
+        - "단일 이벤트성 뉴스에만 의존"
+        - "단기 실험/논문 단계에 머무름"
+        - "대체 기술이 이미 상용화 경로에 있음"
+    bottleneck:
+      goal: "해당 기술이 산업 병목인지 판정"
+      high_signals:
+        - "공급 제약/리드타임/캐파 부족/수율 문제가 반복"
+        - "대체가 어렵고 single point of failure 성격이 강함"
+        - "산업 전체의 성능/원가/출하를 제한"
+      low_signals:
+        - "여러 대체재가 있음"
+        - "공급사와 공정 옵션이 충분"
+        - "단순 성능 개선 요소이지 구조적 병목은 아님"
+    company_impact:
+      goal: "삼성/SK하이닉스/TSMC/ASML/AMAT/Lam/NVDA 등의 수혜/위협/중립 판정"
+      rules:
+        - "공식 자료와 실제 공급망 연결이 있는 회사를 우선"
+        - "수혜/위협/중립을 하나만 고르지 말고 복수 회사에 대해 분리"
+        - "왜 그 회사인지 물리적/사업적 경로를 반드시 설명"
+    evidence_quality:
+      goal: "판단의 근거가 얼마나 구조적인지 구분"
+      grades:
+        A: "공식자료 + 표준 + 실적자료 + 논문이 복수 축으로 교차"
+        B: "공식자료/논문/실적자료 중 2개 이상 축이 충분"
+        C: "논문 또는 뉴스 위주이며 보강 필요"
+        D: "단일 뉴스/추론 위주로 신뢰도 낮음"
+  topic_clusters:
+    hbm:
+      - hbm
+      - hbm3
+      - hbm3e
+      - hbm4
+      - hbm2e
+      - 고대역폭 메모리
+      - memory stacking
+      - thermal management
+      - socamm
+      - ai memory
+    litho:
+      - euv
+      - high-na
+      - lithography
+      - photoresist
+      - scanner
+      - duv
+      - mask
+      - reticle
+      - pdk
+      - patterning
+      - resist
+      - 노광
+    packaging:
+      - cowos
+      - 2.5d
+      - 3d
+      - chiplet
+      - interposer
+      - hybrid bonding
+      - tsv
+      - substrate
+      - advanced packaging
+      - ucie
+      - fan-out
+      - tc bonding
+      - 하이브리드 본딩
+      - 실리콘 관통 전극
+      - 인터포저
+    logic:
+      - gaa
+      - nanosheet
+      - finfet
+      - foundry
+      - backside power
+      - bpdn
+      - cmos
+      - node
+      - ppa
+    nand:
+      - nand
+      - 3d nand
+      - flash
+      - qlc
+      - tlc
+      - mlc
+      - v-nand
+    dram:
+      - dram
+      - ddr5
+      - lpddr5
+      - lpddr6
+      - rdimm
+      - udimm
+      - gddr7
+    equipment:
+      - etch
+      - deposition
+      - metrology
+      - inspection
+      - scanner
+      - stepper
+      - mask aligner
+      - euv scanner
+      - high-na euv
+      - ald
+      - ale
+      - pellicle
+    memory_market:
+      - spot price
+      - contract price
+      - inventory
+      - bit growth
+      - supply tightness
+      - cycle
+      - 현물가
+      - 고정거래가
+    macro:
+      - capex
+      - backlog
+      - export
+      - import
+      - production index
+      - shipment
+      - inventory cycle
+      - 생산지수
+      - 출하
+      - 재고
+    process:
+      - wafer fab
+      - yield
+      - defect density
+      - dppm
+      - cycle time
+      - utilization
+      - wafers start
+      - wafer start
+      - process node
+      - ppa
+      - 수율
+    materials:
+      - silicon
+      - silicon wafer
+      - photoresist
+      - etch gas
+      - precursors
+      - cmp slurry
+      - substrate
+      - interposer
+      - package substrate
+      - glass substrate
+    power_semiconductors:
+      - sic
+      - gan
+      - power semiconductor
+      - power device
+      - mosfet
+      - igbt
+      - 전력 반도체
+    osat:
+      - osat
+      - assembly
+      - test
+      - probe
+      - sort
+      - packaging house
+      - advanced packaging
+      - fan-out
+      - fan in
+      - 패키징
+      - 테스트
+    design:
+      - fabless
+      - ip
+      - pdk
+      - eda
+      - dfx
+      - cxl
+      - ucie
+      - chiplet
+      - die-to-die
+      - 팹리스
+      - 설계자산
+    advanced_memory:
+      - pim
+      - processing in memory
+      - cxl
+      - compute express link
+      - v-nand
+      - vertical nand
+      - llw dram
+      - low latency wide io
+      - mram
+      - reram
+      - embedded memory
+    device_structure:
+      - finfet
+      - gaa
+      - gate all around
+      - nanosheet
+      - bpdn
+      - backside power
+      - backside power delivery
+      - eot
+      - gi
+      - gidl
+      - cmos
+      - tmd
+      - graphene
+      - em
+      - electromigration
+    lithography_process:
+      - high-na euv
+      - euv
+      - duv
+      - pr
+      - photoresist
+      - pellicle
+      - ald
+      - ale
+      - cmp
+      - ashing
+      - opc
+      - twinscan
+      - scanner
+      - stepper
+    advanced_packaging_tech:
+      - tsv
+      - wlcsp
+      - fowlp
+      - fan-out wafer level packaging
+      - interposer
+      - silicon bridge
+      - organic interposer
+      - hybrid bonding
+      - cu-cu bonding
+      - 2.5d
+      - 3d ic
+      - chiplet
+      - ucie
+      - tc bonding
+      - glass substrate
+      - substrate
+    business_model:
+      - fabless
+      - foundry
+      - design house
+      - osat
+      - idm
+      - semiconductor ecosystem
+    yield_productivity:
+      - yield
+      - net die
+      - throughput
+      - ramp-up
+      - yield ramp-up
+      - utilization
+      - defect density
+      - dppm
+      - cycle time
+      - wafers start
+      - wafer start
+    specialty_devices:
+      - cis
+      - cmos image sensor
+      - rfic
+      - pmic
+      - fpga
+      - noc
+      - sram cache
+      - edram
+      - eflash
+    inspection_failure_analysis:
+      - metrology
+      - inspection
+      - mi
+      - tem
+      - fib
+      - failure analysis
+      - electromigration
+      - reliability
+      - ppa
+      - 계측
+      - 검사
+      - 불량 분석
+    materials_foundation:
+      - silicon wafer
+      - photoresist
+      - glass substrate
+      - cmp slurry
+      - etch gas
+      - precursors
+      - substrate
+      - interposer
+      - package substrate
+      - sic
+      - gan
+      - power semiconductor
+    infrastructure:
+      - eda
+      - mpw
+      - pdk
+      - dfx
+      - die-to-die
+      - cxl
+      - ucie
+      - chiplet
+  good_answer_criteria:
+    longevity:
+      - 1y / 3y / 5y / 10y 모두 구분
+      - 수요가 구조적인지 일시적인지 분리해서 설명
+      - 대체 기술과 전환 시점을 함께 언급
+    bottleneck:
+      - 병목인지 아닌지를 명시
+      - 대체 가능성과 공급 제약을 따로 분리
+      - 병목이면 산업 전체 영향까지 연결
+    company_impact:
+      - 수혜 / 위협 / 중립을 분리
+      - 삼성, SK하이닉스, TSMC, ASML 같은 주요 기업을 선별
+      - 회사별 구조적 이유를 설명
+    evidence_quality:
+      - 공식자료, 논문, 표준, 실적자료를 우선
+      - 단순 뉴스는 보조 신호로만 사용
+      - 근거가 약하면 부족한 데이터도 명시

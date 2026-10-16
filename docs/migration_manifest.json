@@ -1,0 +1,624 @@
+{
+  "created_on": "2026-10-16",
+  "source_archive": "C:\\Users\\skht0\\All_Agent",
+  "destination": "C:\\Users\\skht0\\MAPS",
+  "copied": [
+    {
+      "path": "agent_team.py",
+      "source_sha256": "0fab82cf95668fe5ad06a3862401c5674b5b0d9b126e1e89f82a5f8df02612f7",
+      "bytes": 8877
+    },
+    {
+      "path": "AGENTS.md",
+      "source_sha256": "1250a2d672f1e520db2cbae6337682c9e563fb35b588f1921ee98d160c568ab9",
+      "bytes": 2751
+    },
+    {
+      "path": "benchmarks/contribution.py",
+      "source_sha256": "dea7c5229ec1ac6077654ef51ec39e63f491b319c14415811cab68a1f712cbe5",
+      "bytes": 35615
+    },
+    {
+      "path": "benchmarks/contribution_engine_golden.json",
+      "source_sha256": "94d507594c282aa3477c5259060b19d5bf74e3d5de794541eb7338d54cc92e52",
+      "bytes": 12268
+    },
+    {
+      "path": "benchmarks/contribution_fixture.json",
+      "source_sha256": "3996917a79637a09641f5cbe847cd0d37ba17f7d8255c141d42c6acbc10dbbe5",
+      "bytes": 19070
+    },
+    {
+      "path": "benchmarks/contribution_protocol_v1.json",
+      "source_sha256": "8328fbd960bb59e9460f85007d76d8833685b9aef9eeea188314bc80fcc4e2f7",
+      "bytes": 9682
+    },
+    {
+      "path": "benchmarks/technical_counterexamples.json",
+      "source_sha256": "91fdd1660b3026e52d4299fe1b2b761335ef7ec595d2ad912ff9ec4bb157140d",
+      "bytes": 2663
+    },
+    {
+      "path": "economy_agent/src/macro_agent/agent.py",
+      "source_sha256": "9c8b901e0cf1d579b8fbb4bce3933a491f8850d11ae2fd5b820b1259adbbdd98",
+      "bytes": 6988
+    },
+    {
+      "path": "economy_agent/src/macro_agent/analysis/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "economy_agent/src/macro_agent/analysis/news_analyzer.py",
+      "source_sha256": "cd53024b478497e8b8ee8b8debd4db817f9370744b8fe71309a7542fcb5e9799",
+      "bytes": 9766
+    },
+    {
+      "path": "economy_agent/src/macro_agent/db/__init__.py",
+      "source_sha256": "f7cac5096bf5a42bc3fd0f3bc148aca94aa560d0d89b143d49d6f643c01ff3db",
+      "bytes": 396
+    },
+    {
+      "path": "economy_agent/src/macro_agent/db/news_repository.py",
+      "source_sha256": "36cf46aa5e8e691a8ce04a666c6e9b33ad72b261b3cb679cb66e0f29fbde0815",
+      "bytes": 8513
+    },
+    {
+      "path": "economy_agent/src/macro_agent/db/pipeline.py",
+      "source_sha256": "d8801ce1e3d18e50dc08ae44fa08601249dfeabcabd30a76b8563b60fc627ee3",
+      "bytes": 19620
+    },
+    {
+      "path": "economy_agent/src/macro_agent/db/timescale/__init__.py",
+      "source_sha256": "ca038ed987624c72f01486e54210a1f3b0c7da8d0bb5d1fb23476f57685c29b4",
+      "bytes": 680
+    },
+    {
+      "path": "economy_agent/src/macro_agent/db/timescale/client.py",
+      "source_sha256": "58c89265111dc6ee3fffb94f229431688039ecacf14326fa5d6cd7432d6d473d",
+      "bytes": 6420
+    },
+    {
+      "path": "economy_agent/src/macro_agent/db/timescale/repository.py",
+      "source_sha256": "26b332633a8069745f5a497122c44b5d5711c83666a83795fb370c3d5ec8dde4",
+      "bytes": 30650
+    },
+    {
+      "path": "economy_agent/src/macro_agent/db/timescale/schema.sql",
+      "source_sha256": "206f5a61fe737f2f7379f2f6210a28a02a287bea6bc802d11f7be7a5b33967fa",
+      "bytes": 8011
+    },
+    {
+      "path": "economy_agent/src/macro_agent/db/vector/__init__.py",
+      "source_sha256": "3cc7f473cf48b153155727de0094d5c5167da74496b7b26ccb66a4f7bdfece3f",
+      "bytes": 438
+    },
+    {
+      "path": "economy_agent/src/macro_agent/db/vector/client.py",
+      "source_sha256": "38c4c760da2cb0e26d814be5d45d4bc5f65fceccaa15ac61fabac7243cc74eed",
+      "bytes": 4052
+    },
+    {
+      "path": "economy_agent/src/macro_agent/db/vector/repository.py",
+      "source_sha256": "2f65dbf8470545ae7bf76abee96f19a4089103bfe85045b5adcea6d74c0e42b5",
+      "bytes": 11688
+    },
+    {
+      "path": "economy_agent/src/macro_agent/db/vector/smart_chunker.py",
+      "source_sha256": "73face6343bef3780308d6cca4c3bcfe4033b2097d6d95d694e9f638bea7882f",
+      "bytes": 9695
+    },
+    {
+      "path": "economy_agent/src/macro_agent/graph.py",
+      "source_sha256": "1246f3e8da0d150e4cdc32d76d0d1bd1f1d9c08c3080072489e6f5e942647e6e",
+      "bytes": 4521
+    },
+    {
+      "path": "economy_agent/src/macro_agent/nodes/__init__.py",
+      "source_sha256": "0ae7ff8cb23fe8180c9de9acd8db7d237ce9a5fdd902cc6ba39299bea824af8e",
+      "bytes": 464
+    },
+    {
+      "path": "economy_agent/src/macro_agent/nodes/data_retrieval.py",
+      "source_sha256": "986272bc930e0a4ddb4d2bcb9a578f830f95c6319b8978cc99fe764c4f1d3615",
+      "bytes": 7149
+    },
+    {
+      "path": "economy_agent/src/macro_agent/nodes/domain_filter.py",
+      "source_sha256": "bab072ccbd9c9753fc058220715e9888ce45443aba6928bac0af38548c65ab8a",
+      "bytes": 5987
+    },
+    {
+      "path": "economy_agent/src/macro_agent/nodes/geo_analyst.py",
+      "source_sha256": "db4b9d6d2c64c3bab7def5a6d7aaf2e7af19eacd051d2924a0d8ad0f70f1593c",
+      "bytes": 5948
+    },
+    {
+      "path": "economy_agent/src/macro_agent/nodes/macro_analyst.py",
+      "source_sha256": "a215771662fa8babf35f2ddad6ae29a746f72bee2f9c30543ecff26b30cb82d5",
+      "bytes": 13261
+    },
+    {
+      "path": "economy_agent/src/macro_agent/nodes/synthesizer.py",
+      "source_sha256": "e625fe5a7781f41dcf28025c9df616a8927903f66e056d80470100827e3bce42",
+      "bytes": 8667
+    },
+    {
+      "path": "economy_agent/src/macro_agent/prompts/__init__.py",
+      "source_sha256": "86cba0d08fcf0e8e660e489409a929c912b2651ca8fef459839a44b7e7e8593c",
+      "bytes": 890
+    },
+    {
+      "path": "economy_agent/src/macro_agent/prompts/geo_prompt.py",
+      "source_sha256": "e0b0e3c228d621590462edcf499393e1ab1b1ef3f24d3d565aa956c0cd8663f0",
+      "bytes": 15892
+    },
+    {
+      "path": "economy_agent/src/macro_agent/prompts/macro_prompt.py",
+      "source_sha256": "a235f4737ba770dd3041411ad0163eb24e3b669c443714dfe2fb9d62e229e030",
+      "bytes": 15615
+    },
+    {
+      "path": "economy_agent/src/macro_agent/state.py",
+      "source_sha256": "d8c80ec8003a378c4667fa0a2e4279340b035aca2926f2659cad302551826fb5",
+      "bytes": 4210
+    },
+    {
+      "path": "economy_agent/src/macro_agent/tools/__init__.py",
+      "source_sha256": "1ada6577435705459e7e58d314f1c4a5267a592572e3a5c0178cce5c77a9482c",
+      "bytes": 817
+    },
+    {
+      "path": "economy_agent/src/macro_agent/tools/customs_tool.py",
+      "source_sha256": "266f76c4139e41c9de2914a53337028791060745c5b2ec951c6225f57d61aaec",
+      "bytes": 15186
+    },
+    {
+      "path": "economy_agent/src/macro_agent/tools/ecos_tool.py",
+      "source_sha256": "51f73f17ccf87a23fbfceaac07b094e352b96bbe1a9f55cd23093107893753d6",
+      "bytes": 12001
+    },
+    {
+      "path": "economy_agent/src/macro_agent/tools/firecrawl_fetcher.py",
+      "source_sha256": "ee1ccff649222f74825a0b356d59e96b031a41c6920045603ee177c6ff3aa628",
+      "bytes": 12463
+    },
+    {
+      "path": "economy_agent/src/macro_agent/tools/fred_tool.py",
+      "source_sha256": "1f5a47f4ef7c24a724f3b2e43e9d94cdaec8fe71b52896fae9e7eec13e58eaa6",
+      "bytes": 12995
+    },
+    {
+      "path": "economy_agent/src/macro_agent/tools/fx_report_crawler.py",
+      "source_sha256": "cc0daebf9d2a53b9223c83d6fcc9e00503cf863187691c5d4ac6a96afbd59548",
+      "bytes": 14530
+    },
+    {
+      "path": "economy_agent/src/macro_agent/tools/news_tool.py",
+      "source_sha256": "77c70ac27906f17c61ac050707e999efb9e26b69c6403197937afca3df7ef8f0",
+      "bytes": 14186
+    },
+    {
+      "path": "evidence_claims.py",
+      "source_sha256": "f393dd136d74a9f0c60a00d28dfe7e43d315b1e8869c3ec3957cb93ce4616cee",
+      "bytes": 18272
+    },
+    {
+      "path": "evidence_contract.py",
+      "source_sha256": "4b9bd38c697bf7e0e98a4ce31bdba2f184c50b64a34db423e0695a4bb2d72687",
+      "bytes": 58412
+    },
+    {
+      "path": "evidence_time.py",
+      "source_sha256": "6b339a3ce628d44a9f54effc9fe89a45aa2337011beced1ffb5540c82232c431",
+      "bytes": 3629
+    },
+    {
+      "path": "financial_claims.py",
+      "source_sha256": "5e37a43e0574f5fd675c4a40faf0c51d703419acb1cc93be746c6d2bf6449053",
+      "bytes": 7023
+    },
+    {
+      "path": "independent_reasoning.py",
+      "source_sha256": "fd7d3448bc051527bd8c23a48955c24a846747938873145567d712d9afb45f01",
+      "bytes": 71467
+    },
+    {
+      "path": "integration_tools.py",
+      "source_sha256": "4badf460d9ca47920842aa55f4d6db202d4f88fd408929c8558712f2d074f5f1",
+      "bytes": 24679
+    },
+    {
+      "path": "main.py",
+      "source_sha256": "deebdebbbc7dae7f5b0abf03e649147c84b7b1e36feb77c9ed3cde5a0e0ab373",
+      "bytes": 6715
+    },
+    {
+      "path": "market_agent/__init__.py",
+      "source_sha256": "b2f991e3ee3511ccca237b115434003e6840c746611c16be4e30d9502fb7ebb6",
+      "bytes": 50
+    },
+    {
+      "path": "market_agent/market_agent.py",
+      "source_sha256": "425e2226a43641aac0958cbd71280ba01acf96f8a0c1f09bd0d06da09d7d1926",
+      "bytes": 40848
+    },
+    {
+      "path": "peer_review.py",
+      "source_sha256": "1d346a292931ccaeae5037b19dbbd1a1293cc0f9a66e2bc940c5da12c10e5843",
+      "bytes": 8157
+    },
+    {
+      "path": "search_agent/dart_api.py",
+      "source_sha256": "4799540944cf655607a7fd93a9b0f688ca8ec20dc748c6ed2c98888ed26c9482",
+      "bytes": 4825
+    },
+    {
+      "path": "search_agent/database.py",
+      "source_sha256": "cf90cad0e49d109cccfde4ca45b2500fb0a8b9f16f53c2ca9fc887c9bca2745b",
+      "bytes": 8948
+    },
+    {
+      "path": "search_agent/models.py",
+      "source_sha256": "2b59155965f126aa2d91833b43c1c7f5ab90d8c08fffb262d51c9f5fdf111613",
+      "bytes": 6808
+    },
+    {
+      "path": "search_agent/naver_news_api.py",
+      "source_sha256": "b02ecd39f56d9d552f31b5d1d3f065c07db6555f4625df0fc34a86eb5e2c7d8c",
+      "bytes": 5420
+    },
+    {
+      "path": "search_agent/search_agent.py",
+      "source_sha256": "fc3896662725f04ea53c900aa95cd3878e132189e3d896238494a3daed7cef85",
+      "bytes": 7392
+    },
+    {
+      "path": "semiconductor_agent_design/app/agent/__init__.py",
+      "source_sha256": "16441e09fc02d1854e1ee153eb34efe694f4ffbf594c6bff2c4c283b7d73773b",
+      "bytes": 822
+    },
+    {
+      "path": "semiconductor_agent_design/app/agent/company_profiles.py",
+      "source_sha256": "53a991201b017b3a5143907f89263de2bccf49dcff00dcb4c796062c5fe49af1",
+      "bytes": 5693
+    },
+    {
+      "path": "semiconductor_agent_design/app/agent/llm.py",
+      "source_sha256": "71510cc09f3de65b7aea38f2b0b4e82f14c2e6febcdae0be985e7f47f82e9187",
+      "bytes": 2733
+    },
+    {
+      "path": "semiconductor_agent_design/app/agent/models.py",
+      "source_sha256": "d48cc2b564d657b9f7c0b6c224d0a80afdc24988a55ef6eef038ce54c44eaf0c",
+      "bytes": 3331
+    },
+    {
+      "path": "semiconductor_agent_design/app/agent/pipeline.py",
+      "source_sha256": "dec761f84aa74e7885b69331f0514fac7ce16b3e3da039051b4375fa5718867c",
+      "bytes": 3219
+    },
+    {
+      "path": "semiconductor_agent_design/app/agent/reporter.py",
+      "source_sha256": "1dd0af6a1f3a76b3026e31acf7568b30ed55719ad2bde0c853d3079c90b0b01a",
+      "bytes": 5377
+    },
+    {
+      "path": "semiconductor_agent_design/app/agent/semiconductor_event_utils.py",
+      "source_sha256": "4ccefed5db1da6f056f1061d33b184ced0ed19e025530a3d6389a4f68422c15e",
+      "bytes": 11133
+    },
+    {
+      "path": "semiconductor_agent_design/app/agent/semiconductor_prompt.py",
+      "source_sha256": "c981ca9d4b98f47aa3d9208a3294e69f802100de5fe390be68229e5559e9dfc7",
+      "bytes": 2062
+    },
+    {
+      "path": "semiconductor_agent_design/app/agent/semiconductor_react.py",
+      "source_sha256": "810cb0cd1c854e555738d9b82737747f41c519e835603bae7acfc158e6c359be",
+      "bytes": 14181
+    },
+    {
+      "path": "semiconductor_agent_design/app/agent/semiconductor_tools.py",
+      "source_sha256": "06e2a4624f2a54c3f22776a6037f1a65b01b8cf23946a08c34bc4657b6028e82",
+      "bytes": 18629
+    },
+    {
+      "path": "semiconductor_agent_design/app/agent/steps.py",
+      "source_sha256": "d042ecaf55a829fb64e8d712ebc5d8b8c8c919c9b878bb40b8a6fe09085f7b56",
+      "bytes": 14449
+    },
+    {
+      "path": "semiconductor_agent_design/app/agent/tech_potential.py",
+      "source_sha256": "54f57b4397115a450418bdbfb75d9dc3e1a2fd229231c6d27c94ec1874a35b48",
+      "bytes": 33026
+    },
+    {
+      "path": "semiconductor_agent_design/app/collectors/__init__.py",
+      "source_sha256": "14a396a4a63553cb9d28223e88de18e36e8214ca64693eb7495e328c058a3e0d",
+      "bytes": 29
+    },
+    {
+      "path": "semiconductor_agent_design/app/collectors/company_official_collector.py",
+      "source_sha256": "63b78910f3f5ab4926fa08f46ae8f7a5aaac97a744ca0aebe0bf35fd4aaab92c",
+      "bytes": 24025
+    },
+    {
+      "path": "semiconductor_agent_design/app/collectors/dart_collector.py",
+      "source_sha256": "492df75e47083ac0efc68046325684be7077ce27190548a017e099277ed82fe0",
+      "bytes": 16074
+    },
+    {
+      "path": "semiconductor_agent_design/app/collectors/industry_collector.py",
+      "source_sha256": "f6a8e0d627437f4a06cf37fa5db084bc1a6271013ed88bce1d4cc85857ed428b",
+      "bytes": 24878
+    },
+    {
+      "path": "semiconductor_agent_design/app/collectors/knowledge_collector.py",
+      "source_sha256": "5cbf70540be2f741645a23f173851333cca2a6939e707864137b2c6c7c8ce5ce",
+      "bytes": 46125
+    },
+    {
+      "path": "semiconductor_agent_design/app/collectors/macro_collector.py",
+      "source_sha256": "0697246d9d286d68e53bb1c89c82d5b531e5a1b29f6e6475249e649b63c79f41",
+      "bytes": 16225
+    },
+    {
+      "path": "semiconductor_agent_design/app/collectors/market_collector.py",
+      "source_sha256": "242d549fa9774fb3322c5e1a9e7d0d9e2ecbbe80ca17684b0ff9e024250fe9ad",
+      "bytes": 23885
+    },
+    {
+      "path": "semiconductor_agent_design/app/collectors/news_collector.py",
+      "source_sha256": "9331a5d74b423a5ae3a71f18c7721c25bfb866a8fd33a5d666dd43b1156024e3",
+      "bytes": 5998
+    },
+    {
+      "path": "semiconductor_agent_design/app/collectors/paper_collector.py",
+      "source_sha256": "0d14c1dceed4df12ef572d24566c7bf3005368f20d3feeebc1d719908a951d6c",
+      "bytes": 80780
+    },
+    {
+      "path": "semiconductor_agent_design/app/collectors/patent_collector.py",
+      "source_sha256": "53192560fc3118582990781e2081baa7c314a20b930cf9b9f0e7e98e7e9e54bc",
+      "bytes": 18588
+    },
+    {
+      "path": "semiconductor_agent_design/app/config.py",
+      "source_sha256": "8cc8e8fcbce08ed14c20900f3d4fe3b090b1acf25b0cca410cebf16dc89ff153",
+      "bytes": 2423
+    },
+    {
+      "path": "semiconductor_agent_design/app/db/neo4j_db.py",
+      "source_sha256": "8b56cf77b6f57bad70f3f511b95753b961315038867a3ee3a11c85dd630f0c72",
+      "bytes": 1476
+    },
+    {
+      "path": "semiconductor_agent_design/app/db/postgres.py",
+      "source_sha256": "43ceddb50a1fe1fe356afa7fe310038348f6f5953f3f73a00446eaaf10617ce5",
+      "bytes": 304
+    },
+    {
+      "path": "semiconductor_agent_design/app/db/qdrant.py",
+      "source_sha256": "d373425eb0b5b620b470c820c5ebbbb2ec5287ca3230883fc5a603463182bbb9",
+      "bytes": 6434
+    },
+    {
+      "path": "semiconductor_agent_design/app/db/schema.py",
+      "source_sha256": "3bfbb06c742d65d4f97a64eea24748bafa6b9ad3f8481f469d9a0932fc4187a9",
+      "bytes": 12817
+    },
+    {
+      "path": "semiconductor_agent_design/app/events/__init__.py",
+      "source_sha256": "a4a49be4a6003413854b9dfacd2666a6e11b2b4943826425f27ccf6c339cdab3",
+      "bytes": 54
+    },
+    {
+      "path": "semiconductor_agent_design/app/events/builder.py",
+      "source_sha256": "07b4fb7c3a2a326cb924360f7a5bba81b826dc6a46497825924b02793fc58eaf",
+      "bytes": 13343
+    },
+    {
+      "path": "semiconductor_agent_design/app/experience/__init__.py",
+      "source_sha256": "6a28cc568c5f34679ec6bbe1fc89b44216addb31db986600d4675eea5fa172f3",
+      "bytes": 619
+    },
+    {
+      "path": "semiconductor_agent_design/app/experience/backtest_chunks.py",
+      "source_sha256": "09211f46b6764ef0fbde1d825a86d2b2970475899a9fadea865759b3050b24a6",
+      "bytes": 4166
+    },
+    {
+      "path": "semiconductor_agent_design/app/experience/backtest_memory.py",
+      "source_sha256": "d5341fb61f187f89ffd7c50a02ee99bec23b7ea8c5e88d43e0883fcb022a0438",
+      "bytes": 32163
+    },
+    {
+      "path": "semiconductor_agent_design/app/forecast/__init__.py",
+      "source_sha256": "669a01480f1a7b40b20c0ab840fba80d0f1b498bb020cc5d2679ad3f3cc5c980",
+      "bytes": 66
+    },
+    {
+      "path": "semiconductor_agent_design/app/forecast/price_forecast.py",
+      "source_sha256": "3888ea2f0ef260afbe9ef7ee8c9b78ead7b18f6e0196139ad5e07953f71b38d0",
+      "bytes": 60565
+    },
+    {
+      "path": "semiconductor_agent_design/app/rag/__init__.py",
+      "source_sha256": "4847bb0211f3d8d59936e0480df9f133c55d4ad19a1b3e4c00651c0fe2d9681d",
+      "bytes": 43
+    },
+    {
+      "path": "semiconductor_agent_design/app/rag/backfill_chunks.py",
+      "source_sha256": "7d3c870456abf97c9530f866482073a519c1410a322d944164b3598e9c02e878",
+      "bytes": 3390
+    },
+    {
+      "path": "semiconductor_agent_design/app/rag/diagnostics.py",
+      "source_sha256": "2806faf3b7cfaa42d5301b9c14309e078d6134a5f0121a81333b7231d36c46d0",
+      "bytes": 2346
+    },
+    {
+      "path": "semiconductor_agent_design/app/rag/embedder.py",
+      "source_sha256": "c14c1c2a9d127e88ba5d672fe52649f757228254e44fc6c777a075378eef1dbc",
+      "bytes": 5209
+    },
+    {
+      "path": "semiconductor_agent_design/app/rag/evaluator.py",
+      "source_sha256": "57ff995f56a2e45a6cfc763b25ed2a4d72a521e60e7d5f1ded2e957f3593e394",
+      "bytes": 6140
+    },
+    {
+      "path": "semiconductor_agent_design/app/rag/evidence_builder.py",
+      "source_sha256": "412ed8f0e1db52d320c2539b842f9e09b9b02e4525e2e500815c2df32d9be724",
+      "bytes": 12787
+    },
+    {
+      "path": "semiconductor_agent_design/app/rag/indexer.py",
+      "source_sha256": "28fb6d5070d0f18dcddc7c1dfe744751680c9d9618d05a8442a012481d6fc501",
+      "bytes": 5863
+    },
+    {
+      "path": "semiconductor_agent_design/app/rag/lexical.py",
+      "source_sha256": "e2eb71898588b15161d3c1eef3e2eb4b9ba93f4bacfc55cb104f78af5105a471",
+      "bytes": 10686
+    },
+    {
+      "path": "semiconductor_agent_design/app/rag/retriever.py",
+      "source_sha256": "344e3a8ad9c28cd000c81cb6cd3068960f1a1064695c5382a1d383a564361966",
+      "bytes": 9259
+    },
+    {
+      "path": "semiconductor_agent_design/app/rag/tech_potential_benchmark.py",
+      "source_sha256": "8f007eeaaad61c98af6bf9a8301caa6d34130a32a981ed5675b91ba4d7d9a3c0",
+      "bytes": 16045
+    },
+    {
+      "path": "semiconductor_agent_design/app/taxonomy.py",
+      "source_sha256": "a8897cc4a1599706d5c3c236fd2715d1d758147cd51455c6e85abccf6ef8ceb7",
+      "bytes": 1169
+    },
+    {
+      "path": "semiconductor_agent_design/arxiv_query_set.yaml",
+      "source_sha256": "9dfdb5ffa34323b13d320149bdb79fccd5fb2de3506166bf54c0066147bb5b92",
+      "bytes": 5640
+    },
+    {
+      "path": "semiconductor_agent_design/data/company_paper_watchlist.yaml",
+      "source_sha256": "cd4f949fe0b923193581b639235c4e0a3716deee3291bee35dd873a5c60bc98a",
+      "bytes": 6369
+    },
+    {
+      "path": "semiconductor_agent_design/data/kosis_series.json",
+      "source_sha256": "0f4a009f983fcfce41e965ef00c2d2959a8b5fd10f200094c26f4de7ad804cf0",
+      "bytes": 1685
+    },
+    {
+      "path": "semiconductor_agent_design/data/rag_eval_cases.yaml",
+      "source_sha256": "9917027618f5a8d96ede23bd21b1a7f90d1f8d7fb17222bc9b7b386a8caf24ce",
+      "bytes": 2814
+    },
+    {
+      "path": "semiconductor_agent_design/data/semiconductor_taxonomy.yaml",
+      "source_sha256": "6c691e908271239da7dc5d6df0d5fe0ce9e89849d3fb2fa640635498b69940ff",
+      "bytes": 12016
+    },
+    {
+      "path": "semiconductor_agent_design/data/tech_potential_eval_cases.yaml",
+      "source_sha256": "41751768468c8a99ae0ba1ffe638f64672eaaa302c3c5948f6ab9302e72f0b19",
+      "bytes": 7485
+    },
+    {
+      "path": "semiconductor_agent_design/data/tech_potential_playbook.yaml",
+      "source_sha256": "da4b92bd9a5bb82d34257c56c339d470e8b8c3384c5983e4020b01b0c78ba467",
+      "bytes": 9757
+    },
+    {
+      "path": "tests/test_contribution.py",
+      "source_sha256": "5b1ddd2ecb9f68b71d63c5c4959c60bc01310d4eb660e7563b244c8637053281",
+      "bytes": 11327
+    },
+    {
+      "path": "tests/test_evidence_claims.py",
+      "source_sha256": "58803fc4bd95f7bb3e330cbbb3075fc2378c33dcd39db4d616a259b7744e7851",
+      "bytes": 10896
+    },
+    {
+      "path": "tests/test_financial_claims.py",
+      "source_sha256": "d6ce847fb67a9452b920a6fb30962bf4cdd89259d05c0066076b3eea60d841d1",
+      "bytes": 6203
+    },
+    {
+      "path": "tests/test_independent_reasoning.py",
+      "source_sha256": "89a0f17712bf1dfae540e1cf5677ae4b12ebc58309e2e20fc2975d6d115254aa",
+      "bytes": 9242
+    },
+    {
+      "path": "tests/test_integration_evidence.py",
+      "source_sha256": "53e30105e18860746034231df859a9d4389fde8792e18f48d0fb93a75c2bf624",
+      "bytes": 15431
+    },
+    {
+      "path": "tests/test_live_evidence.py",
+      "source_sha256": "821292048b4579f1f19856e3f5d14da0bb80a33146f631f73d5bf98448c65b21",
+      "bytes": 16723
+    },
+    {
+      "path": "tests/test_peer_review.py",
+      "source_sha256": "29da913b4eac35efedc9bab13db5f6de0894cb84bb9fc8189bc0f64b507d9be4",
+      "bytes": 8396
+    },
+    {
+      "path": "tests/test_production_report.py",
+      "source_sha256": "90e12d1f64f93880eea4579a7651c932ea631511d274fc6bf18d21755ff016a4",
+      "bytes": 19018
+    },
+    {
+      "path": "tests/test_technical_grounding.py",
+      "source_sha256": "62875f897a96c04f0462ace921c8f086a0ff7e6fc015d79cd6f81559d4996747",
+      "bytes": 8922
+    }
+  ],
+  "fixture_provenance": [
+    {
+      "fixture": "tests/fixtures/financial.json",
+      "sources": [
+        {
+          "path": "benchmarks/runs/matched_contribution_20261016_prepare_v1/inputs.json",
+          "sha256": "f351df5b1e4ca6d8a155d78e94c7b82b8bf326e3c75f33610bfa560b59ce2498"
+        },
+        {
+          "path": "benchmarks/runs/matched_contribution_20261016_live_v1/PRICE-CHRONOLOGY-2025-08-04-005930.json",
+          "sha256": "36280c4ac8c1609acfbccf7117a487a18df7e12dc5433a9618b10eda9e70d02f"
+        }
+      ]
+    },
+    {
+      "fixture": "tests/fixtures/paired.json",
+      "sources": [
+        {
+          "path": "benchmarks/runs/financial_scope_20261016_prepare_v1/inputs.json",
+          "sha256": "f351df5b1e4ca6d8a155d78e94c7b82b8bf326e3c75f33610bfa560b59ce2498"
+        },
+        {
+          "path": "benchmarks/runs/financial_scope_20261016_live_v1/PRICE-CHRONOLOGY-2025-08-04-005930.json",
+          "sha256": "c3ec5de7092b59b7d2679513fe9e798cbddde0b8ba8a992a5f48a46a6c738c66"
+        }
+      ]
+    }
+  ],
+  "exclusions": [
+    ".git history",
+    ".env and credentials",
+    "database contents and model caches",
+    "benchmarks/runs and .cache",
+    "multi-agent-debate reference repository",
+    "old reports/PDFs",
+    "one-off historical runners and legacy duplicate entrypoints"
+  ],
+  "adaptations": [
+    "Extract exact ROLE_RULES/BOUNDARY; replace historical imports",
+    "Extract two small regression fixtures without rewriting original responses",
+    "Read external credentials only when TIMESCALE_CREDENTIALS_PATH is explicitly set"
+  ]
+}
